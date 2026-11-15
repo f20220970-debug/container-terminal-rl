@@ -76,28 +76,87 @@ draws for every policy).
 - **Reward vs KPI mismatch (found in evaluation).** On the 6-crane quay, PPO's crane idle % (11.9%) is
   about the same as the rules' (11.7–12.6%), yet turnaround is 7% faster (2.52 h vs 2.71 h). The gain comes from **balancing
   work so all cranes finish together**: vessel turnaround is set by the slowest crane, which the per-step
-  idle reward does not measure directly. Next step: add a terminal reward for makespan and compare.
-- **Volatile cranes:** the improvement (+0.40) is borderline (CI just touches 0). The policy is trained on
-  cycle variability up to 0.5, so 0.6 is outside what it saw.
-- **Where PPO loses on individual seeds:** in the base and 14-truck cases it loses about half the paired
+  idle reward does not measure directly. This led to the follow-up below.
+- **Volatile cranes:** the improvement on seed 0 (+0.40) is borderline (CI just touches 0); across 3 training
+  seeds all three beat the best rule, by +0.2 on average.
+- **Where PPO loses on individual ships:** in the base and 14-truck cases it loses about half the paired
   comparisons by small margins. These are ties within noise, not systematic failures.
+
+## Follow-up 1: 3 training seeds, and a reward that also counts turnaround
+Six PPO runs: 3 seeds with the idle-time reward, and 3 with idle time plus an end-of-episode penalty on
+turnaround above a lower bound (`makespan_coef = 0.5`). Each is evaluated on the same 30 held-out ships per scenario.
+
+| Scenario | Best rule | Idle reward: mean of 3 seeds (range) | Seeds beating rule | Idle + turnaround: mean (range) | Seeds beating rule |
+| --- | --- | --- | --- | --- | --- |
+| Base | 26.75 | 26.82 (26.73–26.98) | 2/3 | 26.77 (26.69–26.85) | 2/3 |
+| Fewer trucks | 24.39 | 25.10 (24.87–25.25) | **3/3** | **25.22** (25.14–25.36) | **3/3** |
+| More trucks | 27.18 | 27.16 (27.14–27.18) | tie | 27.16 | tie |
+| Volatile cranes (unseen) | 25.28 | 25.50 (25.40–25.60) | **3/3** | 25.49 (25.35–25.68) | **3/3** |
+| Crane breakdown (unseen) | 23.47 | 23.45 (23.18–23.60) | 2/3 | **23.55** (23.48–23.64) | **3/3** |
+| 6 cranes (unseen) | 22.58 | 23.72 (23.38–23.91) | **3/3** | **23.93** (23.79–24.10) | **3/3** |
+
+*Crane moves per hour.*
+
+- **The main result holds across seeds:** every training seed beats the best rule with scarce trucks, with
+  volatile cranes and on the unseen 6-crane quay. The seed-0 breakdown gain (+0.27) was partly luck: with the
+  idle reward, the 3-seed average is a tie.
+- **Adding turnaround to the reward helps exactly where balancing matters.** On the 6-crane quay, turnaround
+  falls from 2.53 h to 2.51 h; breakdowns move from a tie to all 3 seeds ahead. Elsewhere nothing changes. So the
+  error analysis was right about the cause.
+
+## Follow-up 2: multi-agent, a central brain vs truck-level agents
+Each truck becomes its own agent with a shared policy (parameter sharing, independent-PPO style). Three
+levels of what a truck can see:
+- **local:** a public crane board (idle now, next ready time) plus its own travel times
+- **broadcast:** local, plus how many trucks have announced each crane as their destination
+- **full:** the central dispatcher's view, including every truck's arrival time
+
+![Multi-agent](docs/multiagent.png)
+
+| What trucks can see | Policy | Fewer trucks | Base | More trucks | 6 cranes |
+| --- | --- | --- | --- | --- | --- |
+| Local | greedy rule ("public board") | 7.9 | 8.0 | 8.0 | 5.6 |
+| Local | PPO truck agents | 19.2 | 20.3 | 20.9 | 17.4 |
+| Broadcast | rule (fewest assigned) | 24.2 | 26.8 | 27.1 | 22.5 |
+| Broadcast | **PPO truck agents** | 25.1 | **26.9** | 27.2 | 23.6 |
+| Full | **PPO central dispatcher** | **25.3** | 26.8 | 27.2 | **23.9** |
+
+- **Without communication, decentralised trucks herd.** With only the public board, the greedy rule sends
+  many trucks to the same "soon ready" crane at once and productivity collapses (8 moves/h). Learned agents
+  avoid the worst of it but only reach random-dispatch level (~20).
+- **One small broadcast fixes coordination.** If each truck just announces which crane it's heading to, the
+  learned truck agents reach 99–101% of the central dispatcher. That's a practical design point: truck-level
+  autonomy needs a shared intent channel, not a full central brain.
+
+## Follow-up 3: throughput and reproducibility
+- **Simulator speed:** about 11,700 dispatch decisions per second on one core. With 2 parallel worker processes
+  it's 21,100 per second (1.81× speedup, 91% efficiency; `bench.py`, `results/benchmark.json`). The test machine
+  has 2 cores; the actor-learner version is in [distributed-rl-rollouts](https://github.com/f20220970-debug/distributed-rl-rollouts).
+- **Docker:** `docker build -t terminal-rl . && docker run --rm terminal-rl` runs the tests, the evaluation, the
+  plots and the benchmark.
 
 ## Run it
 ```bash
 pip install -r requirements.txt
-python train.py      # ~11 min on CPU, saves results/ppo_dispatcher.pt (a trained model is included)
-python evaluate.py   # ~1 min: 6 scenarios x 50 seeds x 6 policies -> results/
-python plot.py       # docs/results.png
-pytest -q            # 5 checks: every box delivered, return = -idle time, determinism, physical limit, masking
+python train.py               # ~11 min on CPU, saves results/ppo_dispatcher.pt (trained models are included)
+python evaluate.py            # ~1 min: 6 scenarios x 50 seeds x 6 policies -> results/
+python train_seeds.py 1 0     # extra seeds; second argument = turnaround coefficient (0 or 0.5)
+python evaluate_seeds.py      # 3 seeds x 2 rewards -> results/seed_summary.csv
+python train_ma.py comm 0     # multi-agent runs: local | comm
+python multiagent_eval.py     # -> results/multiagent_summary.csv
+python bench.py               # throughput with 1..N worker processes
+python plot.py                # docs/*.png
+pytest -q                     # 5 checks: every box delivered, return = -idle time, determinism, physical limit, masking
 ```
 
 ## Limitations and next steps
 - A single vessel and a simplified yard (no stacking or yard-crane scheduling). Next: joint quay-crane and
-  yard-crane decisions, and a multi-agent version where each truck is an agent.
+  yard-crane decisions.
+- Multi-agent agents act one at a time, as each truck becomes free. Truly simultaneous decisions would need a
+  centralised-critic method (MAPPO-style) for a fair test.
 - The simulator is not calibrated to a real terminal. With operational logs, step one would be fitting
   cycle-time and travel-time distributions and checking that the simulator reproduces historical moves
   per hour before trusting any policy.
-- Training uses one seed. The next run should report variation across 3–5 training seeds.
 
 ## Why it matters for DP World
 DP World runs about 110M TEU of terminal capacity, roughly 10% of world container traffic (investor

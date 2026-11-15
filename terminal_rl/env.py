@@ -41,6 +41,10 @@ class Config:
     breakdown_s: float = 1500.0
     max_steps: int = 5000
     feats_per_crane: int = 7
+    makespan_coef: float = 0.0             # optional end-of-episode penalty on vessel turnaround (ablation)
+    obs_mode: str = "full"                 # "full" = central dispatcher sees every truck's plan
+                                           # "local" = each truck-agent sees only the public crane board
+                                           # "comm" = local + trucks broadcast their chosen crane (counts only)
 
 
 class TerminalEnv(gym.Env):
@@ -195,6 +199,10 @@ class TerminalEnv(gym.Env):
                 arrive_in / 300.0,
                 (arrive_in - ready_in) / 300.0,                             # would THIS truck be early or late
             ]
+        if cfg.obs_mode in ("local", "comm"):
+            f[:, 4] = 0.0                      # no knowledge of other trucks' arrival times
+            if cfg.obs_mode == "local":
+                f[:, 3] = 0.0                  # no knowledge of how many trucks are heading to each crane
         g = np.array([len(self.waiting_trucks) / cfg.n_trucks, self.delivered / self.total,
                       self.steps / 1000.0], dtype=np.float32)
         return np.clip(np.concatenate([f.ravel(), g]), -5, 5)
@@ -217,6 +225,10 @@ class TerminalEnv(gym.Env):
                 self._process(t, kind, args)
         reward = -(self.idle_total - self._idle_at_last_decision) / 60.0
         self._idle_at_last_decision = self.idle_total
+        if done and self.cfg.makespan_coef > 0:
+            # minutes of turnaround above a simple lower bound (every crane busy all the time)
+            lb = self.cfg.containers_per_crane * (self.cfg.crane_cycle_mean_s + self.cfg.handover_s) / 60.0
+            reward -= self.cfg.makespan_coef * max(0.0, self.now / 60.0 - lb)
         info = {"action_mask": self._valid() if not done else np.ones(self.cfg.n_cranes, bool)}
         if done:
             info.update(self.kpis())

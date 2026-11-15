@@ -1,0 +1,7 @@
+information,policy,fewer_trucks,base,more_trucks,six_cranes
+broadcast counts,PPO truck agents + broadcast,25.07,26.93,27.17,23.62
+broadcast counts,rule: fewest assigned,24.23,26.75,27.12,22.45
+full (central),PPO central dispatcher,25.25,26.75,27.15,23.88
+full (central),rule: most starved,23.67,26.51,27.12,22.58
+local,"PPO truck agents, local info",19.16,20.32,20.9,17.44
+local,rule: public board (greedy),7.94,8.0,8.02,5.61

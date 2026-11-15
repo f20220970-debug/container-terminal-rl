@@ -24,3 +24,22 @@ ax[1].plot([r["step"] / 1000 for r in h], [r["mean_return_last20"] for r in h], 
 ax[1].set(title="PPO training", xlabel="dispatch decisions (thousands)", ylabel="episode return = -crane idle minutes")
 plt.tight_layout()
 plt.savefig("docs/results.png", dpi=130)
+
+# ---- multi-agent chart
+ma = pd.read_csv("results/multiagent_summary.csv")
+order = [("local", "rule: public board (greedy)"), ("local", "PPO truck agents, local info"),
+         ("broadcast counts", "rule: fewest assigned"), ("broadcast counts", "PPO truck agents + broadcast"),
+         ("full (central)", "rule: most starved"), ("full (central)", "PPO central dispatcher")]
+fig, ax = plt.subplots(figsize=(11, 4))
+scs = ["fewer_trucks", "base", "more_trucks", "six_cranes"]
+cols = ["#d9d9d9", "#f4a582", "#9dc3e6", "#2e75b6", "#bdbdbd", "#c00000"]
+x = np.arange(len(scs))
+for i, ((info, pol), col) in enumerate(zip(order, cols)):
+    row = ma[(ma.information == info) & (ma.policy == pol)].iloc[0]
+    ax.bar(x + (i - 2.5) * 0.13, [row[s] for s in scs], 0.13, color=col, label=f"{pol} [{info}]")
+ax.set_xticks(x, [s.replace("_", " ") for s in scs])
+ax.set_ylabel("crane moves per hour")
+ax.set_title("Central dispatcher vs decentralised truck agents, by what each truck can see (30 held-out ships)")
+ax.legend(fontsize=7, ncol=3, loc="lower center", bbox_to_anchor=(0.5, -0.42))
+plt.tight_layout()
+plt.savefig("docs/multiagent.png", dpi=130, bbox_inches="tight")

@@ -54,3 +54,22 @@ def most_starved(env, rng=None):
 
 RULES = {"random": random_rule, "nearest": nearest, "dedicated": dedicated,
          "fewest_assigned": fewest_assigned, "most_starved": most_starved}
+
+
+def public_board(env, rng=None):
+    """Decentralised greedy rule: a truck sees only the public crane board (idle now / next ready time) and
+    its own travel times, not where other trucks are going. It picks the crane it can serve with the least
+    crane waiting. Many trucks can make the same choice at once (herding)."""
+    truck, now = env.waiting_trucks[0], env.now
+    v = _valid(env)
+    best, best_key = v[0], None
+    for c in v:
+        need_at = now if (env.c_holding[c] and not env.c_queue[c]) else env.c_ready_at[c]
+        arrive = now + env.travel_time(truck, c)
+        key = (-max(arrive - need_at, 0.0) - 0.5 * max(need_at - arrive, 0.0), -env.travel_time(truck, c))
+        if best_key is None or key > best_key:
+            best, best_key = c, key
+    return int(best)
+
+
+RULES_LOCAL = {"public_board": public_board}

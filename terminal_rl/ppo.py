@@ -48,18 +48,21 @@ class PPOConfig:
     vf_coef: float = 0.5
     max_grad: float = 0.5
     seed: int = 0
+    makespan_coef: float = 0.0     # 0 = idle-time reward only (default); >0 adds the turnaround penalty
+    obs_mode: str = "full"         # "full" (central dispatcher) | "local" | "comm" (decentralised truck agents)
 
 
-def train_env_sampler(rng):
+def train_env_sampler(rng, makespan_coef=0.0, obs_mode="full"):
     """Domain randomisation during training: truck fleet 8-14, crane cycle variability 0.25-0.5 (4 cranes).
     Breakdowns and 6-crane quays are never seen in training (they are held-out stress tests)."""
-    return replace(Config(), n_trucks=int(rng.integers(8, 15)), crane_cycle_cv=float(rng.uniform(0.25, 0.5)))
+    return replace(Config(), n_trucks=int(rng.integers(8, 15)), crane_cycle_cv=float(rng.uniform(0.25, 0.5)),
+                   makespan_coef=makespan_coef, obs_mode=obs_mode)
 
 
 def train(cfg: PPOConfig = PPOConfig(), log=print):
     torch.manual_seed(cfg.seed)
     rng = np.random.default_rng(cfg.seed)
-    env = TerminalEnv(train_env_sampler(rng))
+    env = TerminalEnv(train_env_sampler(rng, cfg.makespan_coef, cfg.obs_mode))
     C, F = env.cfg.n_cranes, env.cfg.feats_per_crane
     net = CraneScorer(F, 3)
     opt = torch.optim.Adam(net.parameters(), lr=cfg.lr)
@@ -82,7 +85,7 @@ def train(cfg: PPOConfig = PPOConfig(), log=print):
             step += 1
             if done:
                 ep_rets.append(ep_ret); ep_ret = 0.0
-                env.cfg = train_env_sampler(rng)          # same quay geometry (4 cranes), new fleet / volatility
+                env.cfg = train_env_sampler(rng, cfg.makespan_coef, cfg.obs_mode)   # same quay (4 cranes), new fleet / volatility
                 obs, info = env.reset(seed=int(rng.integers(1e9)))
             else:
                 obs = obs2

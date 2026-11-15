@@ -1,0 +1,21 @@
+{
+ "cpu_count": 2,
+ "runs": [
+  {
+   "workers": 1,
+   "decisions": 4890,
+   "seconds": 0.42,
+   "decisions_per_s": 11681,
+   "speedup": 1.0,
+   "efficiency": 1.0
+  },
+  {
+   "workers": 2,
+   "decisions": 9790,
+   "seconds": 0.46,
+   "decisions_per_s": 21093,
+   "speedup": 1.81,
+   "efficiency": 0.91
+  }
+ ]
+}

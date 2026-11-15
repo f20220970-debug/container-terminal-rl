@@ -1,0 +1,721 @@
+policy,information,scenario,seed,action_mask,makespan_h,crane_moves_per_hour,crane_idle_pct,delivered
+rule: public board (greedy),local,fewer_trucks,900000,[ True  True  True  True],6.167479777770072,9.728446977039582,31.695889134676626,240
+rule: public board (greedy),local,fewer_trucks,900001,[ True  True  True  True],7.414282101952483,8.092489491895588,40.672001433445594,240
+rule: public board (greedy),local,fewer_trucks,900002,[ True  True  True  True],7.788956361335822,7.703214296826523,42.62058007270265,240
+rule: public board (greedy),local,fewer_trucks,900003,[ True  True  True  True],7.49476279520915,8.005590255418568,44.73911054892386,240
+rule: public board (greedy),local,fewer_trucks,900004,[ True  True  True  True],7.202572116038643,8.3303574102913,40.69054327167933,240
+rule: public board (greedy),local,fewer_trucks,900005,[ True  True  True  True],7.756008286307719,7.7359380992311,40.18951759010766,240
+rule: public board (greedy),local,fewer_trucks,900006,[ True  True  True  True],8.205494582447525,7.312173495104944,41.66293420744243,240
+rule: public board (greedy),local,fewer_trucks,900007,[ True  True  True  True],7.782937005282395,7.709171995003571,46.453367793301716,240
+rule: public board (greedy),local,fewer_trucks,900008,[ True  True  True  True],8.017146537038881,7.483959501401467,42.72891111867787,240
+rule: public board (greedy),local,fewer_trucks,900009,[ True  True  True  True],7.480636380134235,8.02070799208173,35.28101872430867,240
+rule: public board (greedy),local,fewer_trucks,900010,[ True  True  True  True],7.716478803368207,7.775567267003996,43.60826125698445,240
+rule: public board (greedy),local,fewer_trucks,900011,[ True  True  True  True],7.745756314782806,7.746177075760796,41.509571624285755,240
+rule: public board (greedy),local,fewer_trucks,900012,[ True  True  True  True],7.961172673244867,7.536578147795003,41.758536682394464,240
+rule: public board (greedy),local,fewer_trucks,900013,[ True  True  True  True],7.437698921305902,8.067011132720774,46.51154075144677,240
+rule: public board (greedy),local,fewer_trucks,900014,[ True  True  True  True],7.717406833948426,7.774632242538189,46.598205177181875,240
+rule: public board (greedy),local,fewer_trucks,900015,[ True  True  True  True],8.220360609141006,7.2989498700677755,40.17315774408292,240
+rule: public board (greedy),local,fewer_trucks,900016,[ True  True  True  True],7.729122326231858,7.762847768156816,44.30290120348447,240
+rule: public board (greedy),local,fewer_trucks,900017,[ True  True  True  True],7.871359177537932,7.622571737193588,37.04111614168318,240
+rule: public board (greedy),local,fewer_trucks,900018,[ True  True  True  True],7.7670315513507155,7.724958963191772,41.55243724835425,240
+rule: public board (greedy),local,fewer_trucks,900019,[ True  True  True  True],8.46275913032502,7.089886297838616,44.33605928955606,240
+rule: public board (greedy),local,fewer_trucks,900020,[ True  True  True  True],7.558171714447237,7.93842773978152,39.3195485897214,240
+rule: public board (greedy),local,fewer_trucks,900021,[ True  True  True  True],6.422073859360644,9.342776385629012,33.026681159735254,240
+rule: public board (greedy),local,fewer_trucks,900022,[ True  True  True  True],6.489912594934459,9.245116805861379,45.570026125609594,240
+rule: public board (greedy),local,fewer_trucks,900023,[ True  True  True  True],7.258428366655987,8.266252275166071,33.9387022519078,240
+rule: public board (greedy),local,fewer_trucks,900024,[ True  True  True  True],7.667347678667638,7.825391845335786,42.27497861339784,240
+rule: public board (greedy),local,fewer_trucks,900025,[ True  True  True  True],8.039487162340057,7.463162610802127,37.25256223758719,240
+rule: public board (greedy),local,fewer_trucks,900026,[ True  True  True  True],6.859038929360792,8.747581201670119,43.51643071909671,240
+rule: public board (greedy),local,fewer_trucks,900027,[ True  True  True  True],8.026864686449873,7.474898648943943,41.73579677293156,240
+rule: public board (greedy),local,fewer_trucks,900028,[ True  True  True  True],7.506398737105584,7.993180498580281,37.91372299428027,240
+rule: public board (greedy),local,fewer_trucks,900029,[ True  True  True  True],8.06276077922372,7.441619768083555,41.390983219632936,240
+rule: public board (greedy),local,base,900000,[ True  True  True  True],6.069257025193927,9.885888791813501,32.38030899733974,240
+rule: public board (greedy),local,base,900001,[ True  True  True  True],7.414282101952483,8.092489491895588,40.672001433445594,240
+rule: public board (greedy),local,base,900002,[ True  True  True  True],7.788956361335822,7.703214296826523,42.62058007270265,240
+rule: public board (greedy),local,base,900003,[ True  True  True  True],7.110278014673357,8.438488604268223,36.73707144585664,240
+rule: public board (greedy),local,base,900004,[ True  True  True  True],6.857579079166038,8.749443397931142,36.375074878369134,240
+rule: public board (greedy),local,base,900005,[ True  True  True  True],7.756008286307719,7.7359380992311,40.18951759010766,240
+rule: public board (greedy),local,base,900006,[ True  True  True  True],8.205494582447525,7.312173495104944,41.66293420744243,240
+rule: public board (greedy),local,base,900007,[ True  True  True  True],7.782937005282395,7.709171995003571,46.453367793301716,240
+rule: public board (greedy),local,base,900008,[ True  True  True  True],8.017146537038881,7.483959501401467,42.72891111867787,240
+rule: public board (greedy),local,base,900009,[ True  True  True  True],7.480636380134235,8.02070799208173,35.28101872430867,240
+rule: public board (greedy),local,base,900010,[ True  True  True  True],7.716478803368207,7.775567267003996,43.60826125698445,240
+rule: public board (greedy),local,base,900011,[ True  True  True  True],7.745756314782806,7.746177075760796,41.509571624285755,240
+rule: public board (greedy),local,base,900012,[ True  True  True  True],7.961172673244867,7.536578147795003,41.758536682394464,240
+rule: public board (greedy),local,base,900013,[ True  True  True  True],7.437698921305902,8.067011132720774,46.51154075144677,240
+rule: public board (greedy),local,base,900014,[ True  True  True  True],7.717406833948426,7.774632242538189,46.598205177181875,240
+rule: public board (greedy),local,base,900015,[ True  True  True  True],8.220360609141006,7.2989498700677755,40.17315774408292,240
+rule: public board (greedy),local,base,900016,[ True  True  True  True],7.729122326231858,7.762847768156816,44.30290120348447,240
+rule: public board (greedy),local,base,900017,[ True  True  True  True],7.871359177537932,7.622571737193588,37.04111614168318,240
+rule: public board (greedy),local,base,900018,[ True  True  True  True],7.7670315513507155,7.724958963191772,41.55243724835425,240
+rule: public board (greedy),local,base,900019,[ True  True  True  True],8.46275913032502,7.089886297838616,44.33605928955606,240
+rule: public board (greedy),local,base,900020,[ True  True  True  True],6.839315642608067,8.772807563699448,38.73985012459427,240
+rule: public board (greedy),local,base,900021,[ True  True  True  True],6.402044975864227,9.37200538674761,32.96810513123386,240
+rule: public board (greedy),local,base,900022,[ True  True  True  True],6.489912594934459,9.245116805861379,45.570026125609594,240
+rule: public board (greedy),local,base,900023,[ True  True  True  True],7.258428366655987,8.266252275166071,33.9387022519078,240
+rule: public board (greedy),local,base,900024,[ True  True  True  True],7.667347678667638,7.825391845335786,42.27497861339784,240
+rule: public board (greedy),local,base,900025,[ True  True  True  True],8.039487162340057,7.463162610802127,37.25256223758719,240
+rule: public board (greedy),local,base,900026,[ True  True  True  True],6.859038929360792,8.747581201670119,43.51643071909671,240
+rule: public board (greedy),local,base,900027,[ True  True  True  True],8.026864686449873,7.474898648943943,41.73579677293156,240
+rule: public board (greedy),local,base,900028,[ True  True  True  True],7.506398737105584,7.993180498580281,37.91372299428027,240
+rule: public board (greedy),local,base,900029,[ True  True  True  True],8.06276077922372,7.441619768083555,41.390983219632936,240
+rule: public board (greedy),local,more_trucks,900000,[ True  True  True  True],6.212041745687463,9.658660140468845,26.41471806161204,240
+rule: public board (greedy),local,more_trucks,900001,[ True  True  True  True],7.414282101952483,8.092489491895588,40.672001433445594,240
+rule: public board (greedy),local,more_trucks,900002,[ True  True  True  True],7.788956361335822,7.703214296826523,42.62058007270265,240
+rule: public board (greedy),local,more_trucks,900003,[ True  True  True  True],6.537394703689189,9.177968092723658,35.11902091228881,240
+rule: public board (greedy),local,more_trucks,900004,[ True  True  True  True],6.857579079166038,8.749443397931142,36.375074878369134,240
+rule: public board (greedy),local,more_trucks,900005,[ True  True  True  True],7.756008286307719,7.7359380992311,40.18951759010766,240
+rule: public board (greedy),local,more_trucks,900006,[ True  True  True  True],8.205494582447525,7.312173495104944,41.66293420744243,240
+rule: public board (greedy),local,more_trucks,900007,[ True  True  True  True],7.782937005282395,7.709171995003571,46.453367793301716,240
+rule: public board (greedy),local,more_trucks,900008,[ True  True  True  True],8.017146537038881,7.483959501401467,42.72891111867787,240
+rule: public board (greedy),local,more_trucks,900009,[ True  True  True  True],7.480636380134235,8.02070799208173,35.28101872430867,240
+rule: public board (greedy),local,more_trucks,900010,[ True  True  True  True],7.716478803368207,7.775567267003996,43.60826125698445,240
+rule: public board (greedy),local,more_trucks,900011,[ True  True  True  True],7.745756314782806,7.746177075760796,41.509571624285755,240
+rule: public board (greedy),local,more_trucks,900012,[ True  True  True  True],7.961172673244867,7.536578147795003,41.758536682394464,240
+rule: public board (greedy),local,more_trucks,900013,[ True  True  True  True],7.437698921305902,8.067011132720774,46.51154075144677,240
+rule: public board (greedy),local,more_trucks,900014,[ True  True  True  True],7.717406833948426,7.774632242538189,46.598205177181875,240
+rule: public board (greedy),local,more_trucks,900015,[ True  True  True  True],8.220360609141006,7.2989498700677755,40.17315774408292,240
+rule: public board (greedy),local,more_trucks,900016,[ True  True  True  True],7.729122326231858,7.762847768156816,44.30290120348447,240
+rule: public board (greedy),local,more_trucks,900017,[ True  True  True  True],7.871359177537932,7.622571737193588,37.04111614168318,240
+rule: public board (greedy),local,more_trucks,900018,[ True  True  True  True],7.7670315513507155,7.724958963191772,41.55243724835425,240
+rule: public board (greedy),local,more_trucks,900019,[ True  True  True  True],8.46275913032502,7.089886297838616,44.33605928955606,240
+rule: public board (greedy),local,more_trucks,900020,[ True  True  True  True],6.960618940568599,8.619923100559607,37.39290724072356,240
+rule: public board (greedy),local,more_trucks,900021,[ True  True  True  True],6.402044975864227,9.37200538674761,32.96810513123386,240
+rule: public board (greedy),local,more_trucks,900022,[ True  True  True  True],6.489912594934459,9.245116805861379,45.570026125609594,240
+rule: public board (greedy),local,more_trucks,900023,[ True  True  True  True],7.258428366655987,8.266252275166071,33.9387022519078,240
+rule: public board (greedy),local,more_trucks,900024,[ True  True  True  True],7.667347678667638,7.825391845335786,42.27497861339784,240
+rule: public board (greedy),local,more_trucks,900025,[ True  True  True  True],8.039487162340057,7.463162610802127,37.25256223758719,240
+rule: public board (greedy),local,more_trucks,900026,[ True  True  True  True],6.859038929360792,8.747581201670119,43.51643071909671,240
+rule: public board (greedy),local,more_trucks,900027,[ True  True  True  True],8.026864686449873,7.474898648943943,41.73579677293156,240
+rule: public board (greedy),local,more_trucks,900028,[ True  True  True  True],7.506398737105584,7.993180498580281,37.91372299428027,240
+rule: public board (greedy),local,more_trucks,900029,[ True  True  True  True],8.06276077922372,7.441619768083555,41.390983219632936,240
+rule: public board (greedy),local,six_cranes,900000,[ True  True  True  True  True  True],10.698095301991048,5.608474995435239,44.84939160652801,360
+rule: public board (greedy),local,six_cranes,900001,[ True  True  True  True  True  True],9.990337563054574,6.00580306934642,42.67790157634589,360
+rule: public board (greedy),local,six_cranes,900002,[ True  True  True  True  True  True],8.828002276181596,6.796554659017599,42.566161570564624,360
+rule: public board (greedy),local,six_cranes,900003,[ True  True  True  True  True  True],10.164826749878511,5.90270758925794,40.0724367935734,360
+rule: public board (greedy),local,six_cranes,900004,[ True  True  True  True  True  True],9.519043928353183,6.3031540196264375,53.50061277780891,360
+rule: public board (greedy),local,six_cranes,900005,[ True  True  True  True  True  True],10.685231067211333,5.61522718812472,37.122884413914385,360
+rule: public board (greedy),local,six_cranes,900006,[ True  True  True  True  True  True],10.780926806908145,5.565384226665328,43.17865586113332,360
+rule: public board (greedy),local,six_cranes,900007,[ True  True  True  True  True  True],11.614801980666286,5.165822034665294,47.45279838660619,360
+rule: public board (greedy),local,six_cranes,900008,[ True  True  True  True  True  True],11.272532920033589,5.322672413168806,52.752916734085616,360
+rule: public board (greedy),local,six_cranes,900009,[ True  True  True  True  True  True],11.18761716611881,5.363072324436277,49.00406180703295,360
+rule: public board (greedy),local,six_cranes,900010,[ True  True  True  True  True  True],12.042488655420843,4.982358855948884,47.14950504072318,360
+rule: public board (greedy),local,six_cranes,900011,[ True  True  True  True  True  True],10.238951441014631,5.859975051708448,44.974612270771416,360
+rule: public board (greedy),local,six_cranes,900012,[ True  True  True  True  True  True],10.853972282187637,5.527930092328086,48.58267999779145,360
+rule: public board (greedy),local,six_cranes,900013,[ True  True  True  True  True  True],11.500093132414564,5.2173490517987124,51.22724665173253,360
+rule: public board (greedy),local,six_cranes,900014,[ True  True  True  True  True  True],9.721035990847097,6.172181653940318,38.12845686417607,360
+rule: public board (greedy),local,six_cranes,900015,[ True  True  True  True  True  True],13.29858448074207,4.511758382020819,39.36412423468844,360
+rule: public board (greedy),local,six_cranes,900016,[ True  True  True  True  True  True],11.457614186965145,5.236692300938142,44.07517151513962,360
+rule: public board (greedy),local,six_cranes,900017,[ True  True  True  True  True  True],10.175723037836974,5.8963868981986405,37.371187895867294,360
+rule: public board (greedy),local,six_cranes,900018,[ True  True  True  True  True  True],11.328509895702158,5.296371769314777,44.50289839550926,360
+rule: public board (greedy),local,six_cranes,900019,[ True  True  True  True  True  True],9.344568354061913,6.420842325362102,36.83858459639839,360
+rule: public board (greedy),local,six_cranes,900020,[ True  True  True  True  True  True],10.696790137788973,5.609159311075538,55.55610282677018,360
+rule: public board (greedy),local,six_cranes,900021,[ True  True  True  True  True  True],10.490120070371606,5.719667610808818,42.80567927327275,360
+rule: public board (greedy),local,six_cranes,900022,[ True  True  True  True  True  True],10.407062409448033,5.765315671166641,44.11081726315504,360
+rule: public board (greedy),local,six_cranes,900023,[ True  True  True  True  True  True],8.837281602316025,6.789418137844057,40.70484669991423,360
+rule: public board (greedy),local,six_cranes,900024,[ True  True  True  True  True  True],10.742961823279922,5.585051961180801,42.0236698453706,360
+rule: public board (greedy),local,six_cranes,900025,[ True  True  True  True  True  True],11.723284958983491,5.11801941264102,46.91921198705665,360
+rule: public board (greedy),local,six_cranes,900026,[ True  True  True  True  True  True],11.170305493293224,5.37138398193538,49.34859978821325,360
+rule: public board (greedy),local,six_cranes,900027,[ True  True  True  True  True  True],12.333240114302614,4.864901635249864,48.973006562847566,360
+rule: public board (greedy),local,six_cranes,900028,[ True  True  True  True  True  True],11.372426054929818,5.275919114373197,55.83462167043793,360
+rule: public board (greedy),local,six_cranes,900029,[ True  True  True  True  True  True],11.337283577081028,5.292273020434406,54.98546427216364,360
+"PPO truck agents, local info",local,fewer_trucks,900000,[ True  True  True  True],3.1200698401098235,19.230338766355324,18.837357535912894,240
+"PPO truck agents, local info",local,fewer_trucks,900001,[ True  True  True  True],3.2378184646919252,18.53099568561171,18.81626528850999,240
+"PPO truck agents, local info",local,fewer_trucks,900002,[ True  True  True  True],3.114872458733862,19.262425924298963,18.569486642791354,240
+"PPO truck agents, local info",local,fewer_trucks,900003,[ True  True  True  True],3.0412046384626112,19.729024229797037,20.813726490122793,240
+"PPO truck agents, local info",local,fewer_trucks,900004,[ True  True  True  True],3.1087009692081997,19.30066628932865,20.711493483337602,240
+"PPO truck agents, local info",local,fewer_trucks,900005,[ True  True  True  True],3.276212343003083,18.31383125338025,20.43612878923299,240
+"PPO truck agents, local info",local,fewer_trucks,900006,[ True  True  True  True],3.0881059803426565,19.42938499582919,18.980738420913962,240
+"PPO truck agents, local info",local,fewer_trucks,900007,[ True  True  True  True],3.105762752457902,19.318925746184565,22.30414595578499,240
+"PPO truck agents, local info",local,fewer_trucks,900008,[ True  True  True  True],3.1181296892545127,19.24230419496916,20.654483768149916,240
+"PPO truck agents, local info",local,fewer_trucks,900009,[ True  True  True  True],3.1112014074239105,19.285154556959487,21.276080303896087,240
+"PPO truck agents, local info",local,fewer_trucks,900010,[ True  True  True  True],3.1087234886676094,19.300526476131154,19.82627117860177,240
+"PPO truck agents, local info",local,fewer_trucks,900011,[ True  True  True  True],3.037087635005707,19.755768423813443,21.391660948517632,240
+"PPO truck agents, local info",local,fewer_trucks,900012,[ True  True  True  True],3.1321780845296137,19.155998918564276,19.883449841516107,240
+"PPO truck agents, local info",local,fewer_trucks,900013,[ True  True  True  True],3.154274325119698,19.02180781239537,21.059156555293782,240
+"PPO truck agents, local info",local,fewer_trucks,900014,[ True  True  True  True],3.153635109271586,19.02566337608366,21.51008825215315,240
+"PPO truck agents, local info",local,fewer_trucks,900015,[ True  True  True  True],3.0611843649092094,19.60025690964207,18.958423288537972,240
+"PPO truck agents, local info",local,fewer_trucks,900016,[ True  True  True  True],3.0544590780556806,19.643412619622676,21.318635415863916,240
+"PPO truck agents, local info",local,fewer_trucks,900017,[ True  True  True  True],3.0979958744002705,19.367359555188298,19.844763210731077,240
+"PPO truck agents, local info",local,fewer_trucks,900018,[ True  True  True  True],3.1289769567220134,19.175596634261364,20.93043741327757,240
+"PPO truck agents, local info",local,fewer_trucks,900019,[ True  True  True  True],3.1297575266996085,19.17081418868611,20.69850865874751,240
+"PPO truck agents, local info",local,fewer_trucks,900020,[ True  True  True  True],3.0599036578281296,19.608460497278216,21.78826989130147,240
+"PPO truck agents, local info",local,fewer_trucks,900021,[ True  True  True  True],3.1019428369822437,19.34271621148622,20.13439920521809,240
+"PPO truck agents, local info",local,fewer_trucks,900022,[ True  True  True  True],3.1955404164029244,18.77616683926636,21.188524979903484,240
+"PPO truck agents, local info",local,fewer_trucks,900023,[ True  True  True  True],3.20888331489464,18.69809342131533,19.63647332127456,240
+"PPO truck agents, local info",local,fewer_trucks,900024,[ True  True  True  True],3.268499649103451,18.357046486591486,21.69789235700976,240
+"PPO truck agents, local info",local,fewer_trucks,900025,[ True  True  True  True],3.1352570937556563,19.137186586547934,21.626894934724774,240
+"PPO truck agents, local info",local,fewer_trucks,900026,[ True  True  True  True],3.0260227192806015,19.828007112340597,19.932635721712565,240
+"PPO truck agents, local info",local,fewer_trucks,900027,[ True  True  True  True],3.1446002123696943,19.080326893060107,21.75088540341925,240
+"PPO truck agents, local info",local,fewer_trucks,900028,[ True  True  True  True],3.2066353891671877,18.711201218166224,20.576094813190647,240
+"PPO truck agents, local info",local,fewer_trucks,900029,[ True  True  True  True],3.2812959822346173,18.28545804000863,19.458287840723777,240
+"PPO truck agents, local info",local,base,900000,[ True  True  True  True],2.784456436972642,21.548191310629406,16.7928926548654,240
+"PPO truck agents, local info",local,base,900001,[ True  True  True  True],3.020530744881579,19.86405869288787,16.092979078371474,240
+"PPO truck agents, local info",local,base,900002,[ True  True  True  True],3.0790785843435513,19.486349034768722,16.447414458381402,240
+"PPO truck agents, local info",local,base,900003,[ True  True  True  True],2.9144871903239546,20.586812046798123,16.631178159988576,240
+"PPO truck agents, local info",local,base,900004,[ True  True  True  True],2.8339974244108355,21.171508302437324,13.708194356715326,240
+"PPO truck agents, local info",local,base,900005,[ True  True  True  True],2.9287033601886847,20.486881947693888,16.088291621837065,240
+"PPO truck agents, local info",local,base,900006,[ True  True  True  True],2.902662613571392,20.670676543484642,15.26610960415359,240
+"PPO truck agents, local info",local,base,900007,[ True  True  True  True],2.870585044939774,20.901662574243232,15.91998125483593,240
+"PPO truck agents, local info",local,base,900008,[ True  True  True  True],2.907288387565853,20.637787519330136,16.896591964920628,240
+"PPO truck agents, local info",local,base,900009,[ True  True  True  True],2.933219889887327,20.45533654222724,14.205921449792392,240
+"PPO truck agents, local info",local,base,900010,[ True  True  True  True],3.0691322916388,19.549499434565682,17.345015620109848,240
+"PPO truck agents, local info",local,base,900011,[ True  True  True  True],3.023342193126605,19.845586826528123,15.426027180042269,240
+"PPO truck agents, local info",local,base,900012,[ True  True  True  True],3.0576729003511365,19.622766056208867,16.046271864146444,240
+"PPO truck agents, local info",local,base,900013,[ True  True  True  True],2.9729681408870237,20.18185098414752,17.819798666988383,240
+"PPO truck agents, local info",local,base,900014,[ True  True  True  True],2.922245048126446,20.532159011944636,15.104024339978357,240
+"PPO truck agents, local info",local,base,900015,[ True  True  True  True],2.831154450199111,21.19276819948141,16.04816693862566,240
+"PPO truck agents, local info",local,base,900016,[ True  True  True  True],2.8106228787520044,21.347581154908156,16.008044935106742,240
+"PPO truck agents, local info",local,base,900017,[ True  True  True  True],2.916447817044719,20.572972247039523,14.750654300931787,240
+"PPO truck agents, local info",local,base,900018,[ True  True  True  True],2.999601131349488,20.002659477930873,14.85256652282279,240
+"PPO truck agents, local info",local,base,900019,[ True  True  True  True],3.107736614604264,19.30665543471107,14.829055149598862,240
+"PPO truck agents, local info",local,base,900020,[ True  True  True  True],3.0375894914856176,19.752504467170557,16.155005510054796,240
+"PPO truck agents, local info",local,base,900021,[ True  True  True  True],2.877304196337188,20.852852498661797,15.448956188853314,240
+"PPO truck agents, local info",local,base,900022,[ True  True  True  True],2.9210028674588773,20.540890482657048,15.200086184791404,240
+"PPO truck agents, local info",local,base,900023,[ True  True  True  True],3.062049216921264,19.594720969353645,16.088084906032417,240
+"PPO truck agents, local info",local,base,900024,[ True  True  True  True],2.9750051874291565,20.168032060424355,16.2878271518145,240
+"PPO truck agents, local info",local,base,900025,[ True  True  True  True],3.086410733707831,19.44005680926322,15.223626102794487,240
+"PPO truck agents, local info",local,base,900026,[ True  True  True  True],3.125875842145737,19.194620333612928,15.911100066843632,240
+"PPO truck agents, local info",local,base,900027,[ True  True  True  True],3.0146998034555654,19.902479156042563,17.151614903040713,240
+"PPO truck agents, local info",local,base,900028,[ True  True  True  True],2.9996272077493527,20.002485590540612,16.213390883655897,240
+"PPO truck agents, local info",local,base,900029,[ True  True  True  True],2.699253765754611,22.228365765834628,14.37928686877247,240
+"PPO truck agents, local info",local,more_trucks,900000,[ True  True  True  True],2.7867290538600114,21.53061845639122,13.725526539474274,240
+"PPO truck agents, local info",local,more_trucks,900001,[ True  True  True  True],2.8327405202509284,21.180902229154793,12.608221607865595,240
+"PPO truck agents, local info",local,more_trucks,900002,[ True  True  True  True],3.0132521073388756,19.91204116438449,16.134151637226093,240
+"PPO truck agents, local info",local,more_trucks,900003,[ True  True  True  True],3.1061424932804935,19.316563914822897,17.71912370858967,240
+"PPO truck agents, local info",local,more_trucks,900004,[ True  True  True  True],2.947437817176202,20.356663557191887,14.663143983250999,240
+"PPO truck agents, local info",local,more_trucks,900005,[ True  True  True  True],2.8370287630234214,21.14888674447488,12.698412023030109,240
+"PPO truck agents, local info",local,more_trucks,900006,[ True  True  True  True],2.8888027429402583,20.76985012099901,15.120689665352366,240
+"PPO truck agents, local info",local,more_trucks,900007,[ True  True  True  True],2.8624617695043613,20.96097863706633,16.625134011676256,240
+"PPO truck agents, local info",local,more_trucks,900008,[ True  True  True  True],2.976320412331606,20.159119882189323,15.424762872473261,240
+"PPO truck agents, local info",local,more_trucks,900009,[ True  True  True  True],2.956799093415864,20.292214014001388,13.45953673369741,240
+"PPO truck agents, local info",local,more_trucks,900010,[ True  True  True  True],2.935641889568029,20.438460226778144,16.162497708152095,240
+"PPO truck agents, local info",local,more_trucks,900011,[ True  True  True  True],2.9326781178579737,20.459115384890573,15.10416008072244,240
+"PPO truck agents, local info",local,more_trucks,900012,[ True  True  True  True],2.677639984783795,22.407792063519203,15.054915705146792,240
+"PPO truck agents, local info",local,more_trucks,900013,[ True  True  True  True],2.828368381413544,21.21364401974172,15.692597079487399,240
+"PPO truck agents, local info",local,more_trucks,900014,[ True  True  True  True],2.721698215358167,22.04505983118492,12.399414300566038,240
+"PPO truck agents, local info",local,more_trucks,900015,[ True  True  True  True],2.6549818837779284,22.599024259488544,14.017631089495834,240
+"PPO truck agents, local info",local,more_trucks,900016,[ True  True  True  True],2.916655539733142,20.571507050671354,13.145103794892844,240
+"PPO truck agents, local info",local,more_trucks,900017,[ True  True  True  True],2.8894780949130427,20.764995625206726,13.984043346740807,240
+"PPO truck agents, local info",local,more_trucks,900018,[ True  True  True  True],2.877766032401393,20.84950594469702,11.88488293604017,240
+"PPO truck agents, local info",local,more_trucks,900019,[ True  True  True  True],2.9477887761017216,20.354239926018884,14.04114830414029,240
+"PPO truck agents, local info",local,more_trucks,900020,[ True  True  True  True],2.8379852124633023,21.141759208787935,16.316944128961588,240
+"PPO truck agents, local info",local,more_trucks,900021,[ True  True  True  True],2.9899152258669646,20.06745859578752,14.963107238345392,240
+"PPO truck agents, local info",local,more_trucks,900022,[ True  True  True  True],2.8287718854154273,21.21061804571369,13.181903431168571,240
+"PPO truck agents, local info",local,more_trucks,900023,[ True  True  True  True],2.923174640068465,20.52562962799743,16.465487579915656,240
+"PPO truck agents, local info",local,more_trucks,900024,[ True  True  True  True],3.003018329008132,19.97989803139744,12.491176778172804,240
+"PPO truck agents, local info",local,more_trucks,900025,[ True  True  True  True],2.826449389003557,21.228046832691575,15.598381700022552,240
+"PPO truck agents, local info",local,more_trucks,900026,[ True  True  True  True],2.725222987998027,22.01654699972883,16.458611985606744,240
+"PPO truck agents, local info",local,more_trucks,900027,[ True  True  True  True],2.8008442520745516,21.422112263314435,12.47978416723669,240
+"PPO truck agents, local info",local,more_trucks,900028,[ True  True  True  True],2.9174342839880945,20.566015943975536,15.51565416434781,240
+"PPO truck agents, local info",local,more_trucks,900029,[ True  True  True  True],2.7939456212731075,21.475006364891243,12.263046158869438,240
+"PPO truck agents, local info",local,six_cranes,900000,[ True  True  True  True  True  True],3.585070760642139,16.736071337474275,23.10077266810703,360
+"PPO truck agents, local info",local,six_cranes,900001,[ True  True  True  True  True  True],3.3089921922371315,18.132409058189836,20.96239721704818,360
+"PPO truck agents, local info",local,six_cranes,900002,[ True  True  True  True  True  True],3.348326738746724,17.919398159588795,19.764091401502398,360
+"PPO truck agents, local info",local,six_cranes,900003,[ True  True  True  True  True  True],3.3014227160877585,18.17398290368009,22.285681335918568,360
+"PPO truck agents, local info",local,six_cranes,900004,[ True  True  True  True  True  True],3.3650513419478982,17.83033716367261,19.675350921238827,360
+"PPO truck agents, local info",local,six_cranes,900005,[ True  True  True  True  True  True],3.687158768276713,16.272692273580212,24.68234854310835,360
+"PPO truck agents, local info",local,six_cranes,900006,[ True  True  True  True  True  True],3.484679520410375,17.218226137746537,21.56028076688443,360
+"PPO truck agents, local info",local,six_cranes,900007,[ True  True  True  True  True  True],3.298457823375126,18.1903189953799,23.69536232832193,360
+"PPO truck agents, local info",local,six_cranes,900008,[ True  True  True  True  True  True],3.6384906443146168,16.490354343429185,21.90987880156112,360
+"PPO truck agents, local info",local,six_cranes,900009,[ True  True  True  True  True  True],3.5505492419635374,16.89879393612313,21.05414607611942,360
+"PPO truck agents, local info",local,six_cranes,900010,[ True  True  True  True  True  True],3.3956961219603308,17.669425603773426,21.18039541938475,360
+"PPO truck agents, local info",local,six_cranes,900011,[ True  True  True  True  True  True],3.4349364519973498,17.467572060936135,20.368933494203684,360
+"PPO truck agents, local info",local,six_cranes,900012,[ True  True  True  True  True  True],3.277275403209337,18.30789073791107,22.523615600015653,360
+"PPO truck agents, local info",local,six_cranes,900013,[ True  True  True  True  True  True],3.3748656387250553,17.778485552588275,20.125773444871058,360
+"PPO truck agents, local info",local,six_cranes,900014,[ True  True  True  True  True  True],3.4646419669063735,17.317806738216827,22.362669499359598,360
+"PPO truck agents, local info",local,six_cranes,900015,[ True  True  True  True  True  True],3.36482734630492,17.83152412437711,20.43483292900079,360
+"PPO truck agents, local info",local,six_cranes,900016,[ True  True  True  True  True  True],3.624635546183457,16.553388398780317,20.091494606422295,360
+"PPO truck agents, local info",local,six_cranes,900017,[ True  True  True  True  True  True],3.292952910851283,18.220728210926346,21.858928914384368,360
+"PPO truck agents, local info",local,six_cranes,900018,[ True  True  True  True  True  True],3.615130468793898,16.596911375101094,21.03225138395204,360
+"PPO truck agents, local info",local,six_cranes,900019,[ True  True  True  True  True  True],3.6031709607337974,16.651999212321808,21.3672289741002,360
+"PPO truck agents, local info",local,six_cranes,900020,[ True  True  True  True  True  True],3.463548635449214,17.323273415566792,22.356838134372254,360
+"PPO truck agents, local info",local,six_cranes,900021,[ True  True  True  True  True  True],3.4100901995201913,17.594842508401147,21.663580187629815,360
+"PPO truck agents, local info",local,six_cranes,900022,[ True  True  True  True  True  True],3.517574124339529,17.057209849491315,23.13890825437013,360
+"PPO truck agents, local info",local,six_cranes,900023,[ True  True  True  True  True  True],3.346411942108699,17.929651530645618,19.533277006995412,360
+"PPO truck agents, local info",local,six_cranes,900024,[ True  True  True  True  True  True],3.6542098935440706,16.419418081594767,21.707042430928293,360
+"PPO truck agents, local info",local,six_cranes,900025,[ True  True  True  True  True  True],3.576530515308222,16.77603469149466,20.444518914907626,360
+"PPO truck agents, local info",local,six_cranes,900026,[ True  True  True  True  True  True],3.3021506005099885,18.169976860150935,20.691225309288264,360
+"PPO truck agents, local info",local,six_cranes,900027,[ True  True  True  True  True  True],3.518492630210527,17.052757048523343,21.42664291165211,360
+"PPO truck agents, local info",local,six_cranes,900028,[ True  True  True  True  True  True],3.2717347738221676,18.33889485176871,21.255821571659183,360
+"PPO truck agents, local info",local,six_cranes,900029,[ True  True  True  True  True  True],3.295174955571219,18.208441375337838,20.92554929286738,360
+rule: fewest assigned,broadcast counts,fewer_trucks,900000,[ True  True  True  True],2.403490356013274,24.96369492387871,11.371888981767336,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900001,[ True  True  True  True],2.3962759928485213,25.038852026671726,10.956615956748518,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900002,[ True  True  True  True],2.573326932124053,23.31612017540085,9.137802585246426,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900003,[ True  True  True  True],2.45109020861538,24.478903219924323,10.397700213125145,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900004,[ True  True  True  True],2.471923230470944,24.272598461145964,9.800777885367735,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900005,[ True  True  True  True],2.469964198604833,24.29185007373434,9.747158043048676,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900006,[ True  True  True  True],2.4873067793727057,24.122476767876574,8.562487486855183,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900007,[ True  True  True  True],2.699094852575248,22.229674493563305,15.25595032273152,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900008,[ True  True  True  True],2.6353820233441634,22.767097699127167,13.574869288307534,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900009,[ True  True  True  True],2.460669586177705,24.383606940581302,12.042588015222709,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900010,[ True  True  True  True],2.4418709311410147,24.57132325661609,9.425972637647718,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900011,[ True  True  True  True],2.335436962840035,25.691123740302675,8.286674903053823,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900012,[ True  True  True  True],2.581857504902921,23.239082670542665,10.058179234694895,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900013,[ True  True  True  True],2.443863952438856,24.551284837326133,7.653623466400153,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900014,[ True  True  True  True],2.3788820769615215,25.221931167196104,8.307039051633684,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900015,[ True  True  True  True],2.5575004986204934,23.460405983249576,13.43042847954774,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900016,[ True  True  True  True],2.4664888779452223,24.32607766307249,15.272857971547026,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900017,[ True  True  True  True],2.406848192312498,24.928867633463845,9.826177637535196,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900018,[ True  True  True  True],2.458222763543838,24.40787746733841,9.66654545875145,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900019,[ True  True  True  True],2.4579827938333496,24.41026037713915,6.550578461645466,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900020,[ True  True  True  True],2.4768164524029004,24.224645286811864,10.68345844568177,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900021,[ True  True  True  True],2.482362348464891,24.170524515530293,9.679545718181224,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900022,[ True  True  True  True],2.543156285978326,23.592730156148708,13.310104123210952,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900023,[ True  True  True  True],2.352679786874308,25.502833124483125,9.170748971707484,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900024,[ True  True  True  True],2.502787609939391,23.973268751099894,10.01606540819639,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900025,[ True  True  True  True],2.483060862224043,24.163725067237717,10.864198380983606,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900026,[ True  True  True  True],2.4906844331216345,24.089763922762614,7.715580207351659,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900027,[ True  True  True  True],2.55854099111667,23.450865242465053,10.735056860072726,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900028,[ True  True  True  True],2.465881269863313,24.332071755963288,11.417750055996617,240
+rule: fewest assigned,broadcast counts,fewer_trucks,900029,[ True  True  True  True],2.440143509554056,24.58871773937804,6.9855067732480975,240
+rule: fewest assigned,broadcast counts,base,900000,[ True  True  True  True],2.207542362422585,27.179546368548614,3.362360944540418,240
+rule: fewest assigned,broadcast counts,base,900001,[ True  True  True  True],2.186622965549617,27.439572777430673,4.550678690984013,240
+rule: fewest assigned,broadcast counts,base,900002,[ True  True  True  True],2.30161868549549,26.068610051748543,1.9205301441797056,240
+rule: fewest assigned,broadcast counts,base,900003,[ True  True  True  True],2.2772930799599482,26.347069917349085,2.189537905607653,240
+rule: fewest assigned,broadcast counts,base,900004,[ True  True  True  True],2.2506409770425067,26.659072065258506,2.099277298318783,240
+rule: fewest assigned,broadcast counts,base,900005,[ True  True  True  True],2.237004540008854,26.821581685195206,2.714015654387144,240
+rule: fewest assigned,broadcast counts,base,900006,[ True  True  True  True],2.1895587223329667,27.40278184275881,2.4670403786098207,240
+rule: fewest assigned,broadcast counts,base,900007,[ True  True  True  True],2.243051798997726,26.749270804539645,4.155147795233219,240
+rule: fewest assigned,broadcast counts,base,900008,[ True  True  True  True],2.21872305232541,27.042581964934698,2.8577379603239605,240
+rule: fewest assigned,broadcast counts,base,900009,[ True  True  True  True],2.182487963068688,27.49156055625479,2.8902116545526786,240
+rule: fewest assigned,broadcast counts,base,900010,[ True  True  True  True],2.271016021688267,26.419892870414962,1.805455271091419,240
+rule: fewest assigned,broadcast counts,base,900011,[ True  True  True  True],2.2876569768318764,26.22770835297721,1.49383776014674,240
+rule: fewest assigned,broadcast counts,base,900012,[ True  True  True  True],2.2692495135910975,26.440459561914693,2.663727650852386,240
+rule: fewest assigned,broadcast counts,base,900013,[ True  True  True  True],2.238502479957131,26.80363347247623,2.218740412052489,240
+rule: fewest assigned,broadcast counts,base,900014,[ True  True  True  True],2.21462272328776,27.092650756750956,2.9112402053045097,240
+rule: fewest assigned,broadcast counts,base,900015,[ True  True  True  True],2.315442660890129,25.912971637541702,2.717232884554521,240
+rule: fewest assigned,broadcast counts,base,900016,[ True  True  True  True],2.2197307598912084,27.03030524429038,2.3603139802011377,240
+rule: fewest assigned,broadcast counts,base,900017,[ True  True  True  True],2.1802833263604873,27.519359192714212,4.538012047116998,240
+rule: fewest assigned,broadcast counts,base,900018,[ True  True  True  True],2.238272756065783,26.806384448632674,2.8487264577720564,240
+rule: fewest assigned,broadcast counts,base,900019,[ True  True  True  True],2.3355492197938705,25.689888909853693,3.1198504107164333,240
+rule: fewest assigned,broadcast counts,base,900020,[ True  True  True  True],2.2136693667183964,27.104318694596035,2.879671597316096,240
+rule: fewest assigned,broadcast counts,base,900021,[ True  True  True  True],2.2267327220147837,26.945308436349304,1.1241201668388716,240
+rule: fewest assigned,broadcast counts,base,900022,[ True  True  True  True],2.2655052420180466,26.484158538760976,4.463894425956255,240
+rule: fewest assigned,broadcast counts,base,900023,[ True  True  True  True],2.2290363630269665,26.917461282920367,1.9170511472161973,240
+rule: fewest assigned,broadcast counts,base,900024,[ True  True  True  True],2.2041081065958243,27.2218952511672,2.133394753051486,240
+rule: fewest assigned,broadcast counts,base,900025,[ True  True  True  True],2.3258872141394114,25.79660769243287,2.5145287937489758,240
+rule: fewest assigned,broadcast counts,base,900026,[ True  True  True  True],2.269719290738879,26.434987024526606,5.429136864927398,240
+rule: fewest assigned,broadcast counts,base,900027,[ True  True  True  True],2.182107885991103,27.496349005103514,2.148255411561106,240
+rule: fewest assigned,broadcast counts,base,900028,[ True  True  True  True],2.2592001873861784,26.55807145156891,2.2151282919505015,240
+rule: fewest assigned,broadcast counts,base,900029,[ True  True  True  True],2.2699551306338135,26.432240527700163,2.524332057850141,240
+rule: fewest assigned,broadcast counts,more_trucks,900000,[ True  True  True  True],2.3018111803969137,26.066429996944354,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900001,[ True  True  True  True],2.2295169404864437,26.911659162773166,0.37004973910156064,240
+rule: fewest assigned,broadcast counts,more_trucks,900002,[ True  True  True  True],2.2564631951059555,26.590285243798366,1.7893730681757243,240
+rule: fewest assigned,broadcast counts,more_trucks,900003,[ True  True  True  True],2.124736640834536,28.23879385655707,0.039988144841969234,240
+rule: fewest assigned,broadcast counts,more_trucks,900004,[ True  True  True  True],2.2267255841251212,26.94539481099731,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900005,[ True  True  True  True],2.145107750297064,27.97062291704971,0.18141445294393968,240
+rule: fewest assigned,broadcast counts,more_trucks,900006,[ True  True  True  True],2.219159176558544,27.037267373063145,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900007,[ True  True  True  True],2.252229379293974,26.640270547757762,0.3371650259626277,240
+rule: fewest assigned,broadcast counts,more_trucks,900008,[ True  True  True  True],2.1722058531610657,27.621691522783635,0.049909821704530705,240
+rule: fewest assigned,broadcast counts,more_trucks,900009,[ True  True  True  True],2.1428051998586777,28.00067873829927,0.1598255094298665,240
+rule: fewest assigned,broadcast counts,more_trucks,900010,[ True  True  True  True],2.188431456290493,27.416897078286002,0.13174002652495737,240
+rule: fewest assigned,broadcast counts,more_trucks,900011,[ True  True  True  True],2.227041672823784,26.94157039455971,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900012,[ True  True  True  True],2.2016135078850256,27.25273976795266,0.09779329248913528,240
+rule: fewest assigned,broadcast counts,more_trucks,900013,[ True  True  True  True],2.1908573301309504,27.38653913005541,0.11860498690620032,240
+rule: fewest assigned,broadcast counts,more_trucks,900014,[ True  True  True  True],2.228112082708075,26.928627363788298,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900015,[ True  True  True  True],2.2067632062213396,27.189142827307936,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900016,[ True  True  True  True],2.136986842519065,28.076915967003533,0.024048028734320135,240
+rule: fewest assigned,broadcast counts,more_trucks,900017,[ True  True  True  True],2.2136311548853462,27.104786570962254,0.05566719582553667,240
+rule: fewest assigned,broadcast counts,more_trucks,900018,[ True  True  True  True],2.398435489552707,25.01630761442311,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900019,[ True  True  True  True],2.2740512429061486,26.384629716312965,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900020,[ True  True  True  True],2.225630208218438,26.95865637446956,0.18362740225565902,240
+rule: fewest assigned,broadcast counts,more_trucks,900021,[ True  True  True  True],2.2208325979596784,27.016894499442756,0.028539563681255885,240
+rule: fewest assigned,broadcast counts,more_trucks,900022,[ True  True  True  True],2.202665469223177,27.23972425152715,0.0,240
+rule: fewest assigned,broadcast counts,more_trucks,900023,[ True  True  True  True],2.1677023286325805,27.67907715348025,0.033017068809486176,240
+rule: fewest assigned,broadcast counts,more_trucks,900024,[ True  True  True  True],2.1968482150965802,27.311855042002623,0.04156487211011425,240
+rule: fewest assigned,broadcast counts,more_trucks,900025,[ True  True  True  True],2.2311337071906787,26.8921579225069,0.1069570967832711,240
+rule: fewest assigned,broadcast counts,more_trucks,900026,[ True  True  True  True],2.176930198120961,27.56174729524612,0.01506464658686297,240
+rule: fewest assigned,broadcast counts,more_trucks,900027,[ True  True  True  True],2.3013850828177365,26.071256152637467,0.09043354307215506,240
+rule: fewest assigned,broadcast counts,more_trucks,900028,[ True  True  True  True],2.18401899143385,27.47228858143255,0.05956213960072867,240
+rule: fewest assigned,broadcast counts,more_trucks,900029,[ True  True  True  True],2.160046623785178,27.77717820500487,0.0,240
+rule: fewest assigned,broadcast counts,six_cranes,900000,[ True  True  True  True  True  True],2.5887186347442737,23.177489895856176,10.311056436505599,360
+rule: fewest assigned,broadcast counts,six_cranes,900001,[ True  True  True  True  True  True],2.886665576271809,20.785227250844653,13.242949689936005,360
+rule: fewest assigned,broadcast counts,six_cranes,900002,[ True  True  True  True  True  True],2.5926471922815044,23.142369767326727,7.976079706015728,360
+rule: fewest assigned,broadcast counts,six_cranes,900003,[ True  True  True  True  True  True],2.9615994233282907,20.25932323169184,13.15714364926685,360
+rule: fewest assigned,broadcast counts,six_cranes,900004,[ True  True  True  True  True  True],2.796445394362168,21.455809622088186,12.559925629551659,360
+rule: fewest assigned,broadcast counts,six_cranes,900005,[ True  True  True  True  True  True],2.669592520607608,22.47534016402766,13.471456322837245,360
+rule: fewest assigned,broadcast counts,six_cranes,900006,[ True  True  True  True  True  True],2.586872561996335,23.194030073788,11.040886176539162,360
+rule: fewest assigned,broadcast counts,six_cranes,900007,[ True  True  True  True  True  True],2.4289665548671007,24.7018633829163,8.534355027010855,360
+rule: fewest assigned,broadcast counts,six_cranes,900008,[ True  True  True  True  True  True],2.497766011550945,24.02146547055624,8.281709936867465,360
+rule: fewest assigned,broadcast counts,six_cranes,900009,[ True  True  True  True  True  True],2.688801937532823,22.314771185807192,14.021993633494352,360
+rule: fewest assigned,broadcast counts,six_cranes,900010,[ True  True  True  True  True  True],2.676531406113625,22.4170730307705,12.604721372875698,360
+rule: fewest assigned,broadcast counts,six_cranes,900011,[ True  True  True  True  True  True],2.726508333561441,22.00616783797845,10.814244585556423,360
+rule: fewest assigned,broadcast counts,six_cranes,900012,[ True  True  True  True  True  True],2.8329382082222367,21.179424184353106,12.772333016116821,360
+rule: fewest assigned,broadcast counts,six_cranes,900013,[ True  True  True  True  True  True],2.5319935164765357,23.69674314312409,9.832744283773648,360
+rule: fewest assigned,broadcast counts,six_cranes,900014,[ True  True  True  True  True  True],2.5560119428312036,23.474068721893424,7.400647856447877,360
+rule: fewest assigned,broadcast counts,six_cranes,900015,[ True  True  True  True  True  True],2.617770283179141,22.920269355007434,11.517645830540273,360
+rule: fewest assigned,broadcast counts,six_cranes,900016,[ True  True  True  True  True  True],2.6325550209335162,22.791546434126843,11.713266752230538,360
+rule: fewest assigned,broadcast counts,six_cranes,900017,[ True  True  True  True  True  True],2.8664483277092883,20.931826825550623,11.50129373774926,360
+rule: fewest assigned,broadcast counts,six_cranes,900018,[ True  True  True  True  True  True],2.6374463839647118,22.74927762125942,11.47679974833059,360
+rule: fewest assigned,broadcast counts,six_cranes,900019,[ True  True  True  True  True  True],2.602512222481161,23.054646768497292,9.093878701586075,360
+rule: fewest assigned,broadcast counts,six_cranes,900020,[ True  True  True  True  True  True],2.892268544611978,20.744961636350922,12.945211055286403,360
+rule: fewest assigned,broadcast counts,six_cranes,900021,[ True  True  True  True  True  True],2.617971644722039,22.918506440267596,11.951672088965529,360
+rule: fewest assigned,broadcast counts,six_cranes,900022,[ True  True  True  True  True  True],3.0201327932778383,19.866676105615955,18.060153824185996,360
+rule: fewest assigned,broadcast counts,six_cranes,900023,[ True  True  True  True  True  True],2.6863400823056334,22.3352212161102,11.233975904931798,360
+rule: fewest assigned,broadcast counts,six_cranes,900024,[ True  True  True  True  True  True],2.7109379447169983,22.132561210752304,12.032696835036147,360
+rule: fewest assigned,broadcast counts,six_cranes,900025,[ True  True  True  True  True  True],2.568101059163761,23.363566548871532,10.182769064620565,360
+rule: fewest assigned,broadcast counts,six_cranes,900026,[ True  True  True  True  True  True],2.5030085925186225,23.97115222829727,9.828918530355672,360
+rule: fewest assigned,broadcast counts,six_cranes,900027,[ True  True  True  True  True  True],2.914111609525401,20.589465346446268,14.154464221455733,360
+rule: fewest assigned,broadcast counts,six_cranes,900028,[ True  True  True  True  True  True],2.529116701640315,23.72369766926361,10.669315134376523,360
+rule: fewest assigned,broadcast counts,six_cranes,900029,[ True  True  True  True  True  True],2.6074209444041045,23.01124416783125,12.081957862374784,360
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900000,[ True  True  True  True],2.3282326522976926,25.77062044928673,7.324150852193302,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900001,[ True  True  True  True],2.3286790782844804,25.765680019851224,6.806399095308705,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900002,[ True  True  True  True],2.398275970775698,25.017971547533627,7.309681871858996,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900003,[ True  True  True  True],2.479112038953601,24.20221396098144,8.965484190746071,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900004,[ True  True  True  True],2.363664512559602,25.384313078773715,7.989850146124706,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900005,[ True  True  True  True],2.422478451586806,24.768022171961096,8.923000016723366,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900006,[ True  True  True  True],2.411502634428507,24.88075241693409,9.131385541988978,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900007,[ True  True  True  True],2.446676143254072,24.523065778620044,8.790123775647634,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900008,[ True  True  True  True],2.4179492614866938,24.814416479156623,8.884788352998017,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900009,[ True  True  True  True],2.3927463603061416,25.07578780407099,8.642221404769586,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900010,[ True  True  True  True],2.3848497409738356,25.158817752392,9.042584941645526,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900011,[ True  True  True  True],2.3670826865897956,25.347656987192405,6.510755045520675,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900012,[ True  True  True  True],2.403661963585942,24.961912660334328,7.132650771238832,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900013,[ True  True  True  True],2.3915085920146595,25.088766229125138,8.42467225160825,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900014,[ True  True  True  True],2.420608277655893,24.787158068427225,7.830823398690568,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900015,[ True  True  True  True],2.4479540234308694,24.51026425566134,6.514573784672369,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900016,[ True  True  True  True],2.524236244238184,23.769565997222273,8.609573164888552,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900017,[ True  True  True  True],2.3320452327834222,25.728488948898626,9.036774149675017,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900018,[ True  True  True  True],2.4859649793130054,24.135496879196165,8.805424724061979,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900019,[ True  True  True  True],2.390785265551923,25.096356776378553,7.825484876843924,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900020,[ True  True  True  True],2.4084804702843483,24.91197281450919,5.961164832476778,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900021,[ True  True  True  True],2.3545373886972305,25.482712777476046,8.391989266022918,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900022,[ True  True  True  True],2.314125900740599,25.927716370486998,6.16018076280743,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900023,[ True  True  True  True],2.3659361764680096,25.359940220184242,7.043391532204728,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900024,[ True  True  True  True],2.463490160931076,24.35568891305131,10.02407974223931,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900025,[ True  True  True  True],2.3209705206196865,25.85125466564751,7.992358804984562,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900026,[ True  True  True  True],2.353290715827558,25.49621242987839,9.406948211491066,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900027,[ True  True  True  True],2.3928677975206503,25.074515216498167,6.9706516723452845,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900028,[ True  True  True  True],2.349054970502266,25.542186433879422,7.820137731922021,240
+PPO truck agents + broadcast,broadcast counts,fewer_trucks,900029,[ True  True  True  True],2.3802351492382385,25.207593467898402,9.312127270845172,240
+PPO truck agents + broadcast,broadcast counts,base,900000,[ True  True  True  True],2.227560766221657,26.935292140995447,1.3167225891857202,240
+PPO truck agents + broadcast,broadcast counts,base,900001,[ True  True  True  True],2.273955545538456,26.38574008965177,1.6610091662014599,240
+PPO truck agents + broadcast,broadcast counts,base,900002,[ True  True  True  True],2.300094007856242,26.085890313640633,1.7306365976847498,240
+PPO truck agents + broadcast,broadcast counts,base,900003,[ True  True  True  True],2.2770550789469253,26.34982375031013,0.7671956909402605,240
+PPO truck agents + broadcast,broadcast counts,base,900004,[ True  True  True  True],2.2063529895691265,27.194197974512345,2.745724082904692,240
+PPO truck agents + broadcast,broadcast counts,base,900005,[ True  True  True  True],2.3037903811229357,26.044036163895356,2.4614575813441215,240
+PPO truck agents + broadcast,broadcast counts,base,900006,[ True  True  True  True],2.293464619184017,26.16129304900599,2.8221667016582295,240
+PPO truck agents + broadcast,broadcast counts,base,900007,[ True  True  True  True],2.218706834339067,27.04277963693814,1.2336680902082153,240
+PPO truck agents + broadcast,broadcast counts,base,900008,[ True  True  True  True],2.198813374973348,27.28744543894148,1.22091513203974,240
+PPO truck agents + broadcast,broadcast counts,base,900009,[ True  True  True  True],2.198396972097924,27.292614009899296,1.79437358125797,240
+PPO truck agents + broadcast,broadcast counts,base,900010,[ True  True  True  True],2.1716719100100486,27.628482794034195,3.0265279412471764,240
+PPO truck agents + broadcast,broadcast counts,base,900011,[ True  True  True  True],2.2329099139266506,26.870766091269616,1.3199691514794487,240
+PPO truck agents + broadcast,broadcast counts,base,900012,[ True  True  True  True],2.223222369162368,26.987853681323784,2.028436509859224,240
+PPO truck agents + broadcast,broadcast counts,base,900013,[ True  True  True  True],2.14138301933606,28.019275140513216,0.6981331811908851,240
+PPO truck agents + broadcast,broadcast counts,base,900014,[ True  True  True  True],2.2303030292986086,26.90217392515893,2.2314442522225235,240
+PPO truck agents + broadcast,broadcast counts,base,900015,[ True  True  True  True],2.1763212546228687,27.56945918372575,1.7921599029779236,240
+PPO truck agents + broadcast,broadcast counts,base,900016,[ True  True  True  True],2.180104646446331,27.521614660930474,1.6419474263599096,240
+PPO truck agents + broadcast,broadcast counts,base,900017,[ True  True  True  True],2.1802588689790623,27.51966789526047,1.31632629916105,240
+PPO truck agents + broadcast,broadcast counts,base,900018,[ True  True  True  True],2.2171413324336666,27.0618742803105,1.9881988230377943,240
+PPO truck agents + broadcast,broadcast counts,base,900019,[ True  True  True  True],2.4549842254432668,24.440075572854862,0.6318657670329696,240
+PPO truck agents + broadcast,broadcast counts,base,900020,[ True  True  True  True],2.18294346124244,27.48582410185306,1.3271893434866495,240
+PPO truck agents + broadcast,broadcast counts,base,900021,[ True  True  True  True],2.246133708915672,26.712568250874607,1.799504801818057,240
+PPO truck agents + broadcast,broadcast counts,base,900022,[ True  True  True  True],2.165645320410302,27.705367741672692,1.3715158477362017,240
+PPO truck agents + broadcast,broadcast counts,base,900023,[ True  True  True  True],2.183445031356817,27.479510195278575,2.627976498754087,240
+PPO truck agents + broadcast,broadcast counts,base,900024,[ True  True  True  True],2.3529404207339293,25.500008190298672,1.3245068984874309,240
+PPO truck agents + broadcast,broadcast counts,base,900025,[ True  True  True  True],2.182876543071162,27.48666670611797,1.217153030580687,240
+PPO truck agents + broadcast,broadcast counts,base,900026,[ True  True  True  True],2.2482175304316545,26.68780898104646,1.0085241873533404,240
+PPO truck agents + broadcast,broadcast counts,base,900027,[ True  True  True  True],2.2305665295347463,26.898995930202027,2.2300965271461557,240
+PPO truck agents + broadcast,broadcast counts,base,900028,[ True  True  True  True],2.172267052432251,27.620913336976226,1.5060415922070336,240
+PPO truck agents + broadcast,broadcast counts,base,900029,[ True  True  True  True],2.2323786795540292,26.87716046991921,2.1581446550483805,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900000,[ True  True  True  True],2.3018111803969137,26.066429996944354,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900001,[ True  True  True  True],2.2062512741438125,27.195451716298457,0.10033390295860979,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900002,[ True  True  True  True],2.294422873822574,26.150366911239118,0.4740468594082777,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900003,[ True  True  True  True],2.1218501673769263,28.27720869385099,0.032043286283248935,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900004,[ True  True  True  True],2.2267255841251212,26.94539481099731,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900005,[ True  True  True  True],2.1672115337000664,27.685345462130496,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900006,[ True  True  True  True],2.219159176558544,27.037267373063145,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900007,[ True  True  True  True],2.1891288703219502,27.40816258623273,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900008,[ True  True  True  True],2.1722058531610657,27.621691522783635,0.049909821704530705,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900009,[ True  True  True  True],2.179893614424173,27.524278984527058,0.20513930507906902,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900010,[ True  True  True  True],2.1173906039440338,28.336765020227652,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900011,[ True  True  True  True],2.227041672823784,26.94157039455971,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900012,[ True  True  True  True],2.1926724570758136,27.363868144728308,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900013,[ True  True  True  True],2.227732586551327,26.933214678555224,0.035535532016351505,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900014,[ True  True  True  True],2.228112082708075,26.928627363788298,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900015,[ True  True  True  True],2.2067632062213396,27.189142827307936,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900016,[ True  True  True  True],2.2013555338686084,27.255933481384293,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900017,[ True  True  True  True],2.130599261322398,28.16109114895676,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900018,[ True  True  True  True],2.398435489552707,25.01630761442311,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900019,[ True  True  True  True],2.2740512429061486,26.384629716312965,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900020,[ True  True  True  True],2.1787393299625135,27.53886120054221,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900021,[ True  True  True  True],2.1884898020419166,27.416166136126602,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900022,[ True  True  True  True],2.202665469223177,27.23972425152715,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900023,[ True  True  True  True],2.2450766203773065,26.725145794764202,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900024,[ True  True  True  True],2.209423978219337,27.15639940160168,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900025,[ True  True  True  True],2.2389699246430346,26.798037499126288,0.09413507861941454,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900026,[ True  True  True  True],2.200485189528372,27.26671385271161,0.15273643720975574,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900027,[ True  True  True  True],2.1987750348755983,27.28792125084077,0.01094099554353712,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900028,[ True  True  True  True],2.173463111339611,27.605713520952783,0.0,240
+PPO truck agents + broadcast,broadcast counts,more_trucks,900029,[ True  True  True  True],2.160046623785178,27.77717820500487,0.0,240
+PPO truck agents + broadcast,broadcast counts,six_cranes,900000,[ True  True  True  True  True  True],2.5313201249944415,23.703047041563643,9.06229553058804,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900001,[ True  True  True  True  True  True],2.4337355294207255,24.653459373328502,9.454065217115527,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900002,[ True  True  True  True  True  True],2.540711394553133,23.615433113981428,9.875357658679851,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900003,[ True  True  True  True  True  True],2.499597040895471,24.00386903102799,7.819052504352288,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900004,[ True  True  True  True  True  True],2.464307740394475,24.347608464840302,11.777682265566714,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900005,[ True  True  True  True  True  True],2.425303041999986,24.739176490918833,10.554442900395042,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900006,[ True  True  True  True  True  True],2.4634524289685915,24.356061961838268,10.14536114040367,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900007,[ True  True  True  True  True  True],2.3775854304735726,25.23568626850522,8.446600158381505,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900008,[ True  True  True  True  True  True],2.5583356086524836,23.452747871340836,11.919761160845512,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900009,[ True  True  True  True  True  True],2.501411358010961,23.986458607795726,11.518328100492274,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900010,[ True  True  True  True  True  True],2.7309210901179815,21.97060919010585,15.363148306771127,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900011,[ True  True  True  True  True  True],2.4280114361966363,24.711580475085047,8.210506355867638,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900012,[ True  True  True  True  True  True],2.4602829963470194,24.387438391878835,10.46749521271212,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900013,[ True  True  True  True  True  True],2.5941359939969324,23.129088119838542,12.535384156955642,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900014,[ True  True  True  True  True  True],2.7779001003917507,21.599048861238227,15.264022989103498,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900015,[ True  True  True  True  True  True],2.788002547669397,21.520783777674954,16.40431425830622,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900016,[ True  True  True  True  True  True],2.5756694183112,23.294914934906693,9.953603316890469,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900017,[ True  True  True  True  True  True],2.5719771580889392,23.32835647909949,15.398720868835985,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900018,[ True  True  True  True  True  True],2.569615080701851,23.34980069606842,15.730534830996364,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900019,[ True  True  True  True  True  True],2.5625421912128585,23.414248633932473,14.30914240450992,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900020,[ True  True  True  True  True  True],2.6116989241175985,22.973551601194572,13.361628902139985,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900021,[ True  True  True  True  True  True],2.5388801749539267,23.6324662313332,10.979321496396494,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900022,[ True  True  True  True  True  True],2.4548089274781275,24.441820839245178,9.384875473742179,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900023,[ True  True  True  True  True  True],2.567911614742227,23.365290166352914,11.921331408785667,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900024,[ True  True  True  True  True  True],2.4828373062006173,24.1659007822045,9.009631999075177,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900025,[ True  True  True  True  True  True],2.5683014207569674,23.361743880636848,13.517233470783177,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900026,[ True  True  True  True  True  True],2.554571103143573,23.487308662564114,12.871192742390864,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900027,[ True  True  True  True  True  True],2.478217902636747,24.210946073854867,8.46611177795701,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900028,[ True  True  True  True  True  True],2.636668917375475,22.755985631947926,13.23424196771883,360
+PPO truck agents + broadcast,broadcast counts,six_cranes,900029,[ True  True  True  True  True  True],2.565851631646806,23.38404889042279,11.533268052492074,360
+rule: most starved,full (central),fewer_trucks,900000,[ True  True  True  True],2.5071472974893165,23.931581546917737,12.570535893508918,240
+rule: most starved,full (central),fewer_trucks,900001,[ True  True  True  True],2.6007223009340152,23.070513902407722,12.424460143493365,240
+rule: most starved,full (central),fewer_trucks,900002,[ True  True  True  True],2.589180521249985,23.17335524022622,15.447513188161256,240
+rule: most starved,full (central),fewer_trucks,900003,[ True  True  True  True],2.498771551023094,24.011798907920845,10.170463496475843,240
+rule: most starved,full (central),fewer_trucks,900004,[ True  True  True  True],2.4887210125084356,24.108769001602436,10.279957079834265,240
+rule: most starved,full (central),fewer_trucks,900005,[ True  True  True  True],2.571951947290388,23.328585148416717,14.25552977889224,240
+rule: most starved,full (central),fewer_trucks,900006,[ True  True  True  True],2.534314033292165,23.67504548047577,10.492720893658394,240
+rule: most starved,full (central),fewer_trucks,900007,[ True  True  True  True],2.502556906188351,23.97547877997552,12.959573171910048,240
+rule: most starved,full (central),fewer_trucks,900008,[ True  True  True  True],2.513378234275768,23.87225256499806,11.026302741218954,240
+rule: most starved,full (central),fewer_trucks,900009,[ True  True  True  True],2.5697470198472487,23.348601841579928,10.700575070932032,240
+rule: most starved,full (central),fewer_trucks,900010,[ True  True  True  True],2.4355996654526075,24.634590343832304,9.931595196581286,240
+rule: most starved,full (central),fewer_trucks,900011,[ True  True  True  True],2.4668830719359667,24.322190493168794,11.130509601930767,240
+rule: most starved,full (central),fewer_trucks,900012,[ True  True  True  True],2.614491127727169,22.94901648878772,12.573205519625544,240
+rule: most starved,full (central),fewer_trucks,900013,[ True  True  True  True],2.5711853601239443,23.33554045948196,11.343232425919545,240
+rule: most starved,full (central),fewer_trucks,900014,[ True  True  True  True],2.511264871853048,23.89234233015267,10.082591219331583,240
+rule: most starved,full (central),fewer_trucks,900015,[ True  True  True  True],2.5002566051900628,23.997536842998947,9.72751898012785,240
+rule: most starved,full (central),fewer_trucks,900016,[ True  True  True  True],2.6220418344817764,22.882930093241047,12.166865718482038,240
+rule: most starved,full (central),fewer_trucks,900017,[ True  True  True  True],2.6987582542410955,22.23244705438513,13.67242587277506,240
+rule: most starved,full (central),fewer_trucks,900018,[ True  True  True  True],2.6257923278374684,22.850245757787853,13.32462791584553,240
+rule: most starved,full (central),fewer_trucks,900019,[ True  True  True  True],2.663966419897858,22.52280642572834,12.90116760697111,240
+rule: most starved,full (central),fewer_trucks,900020,[ True  True  True  True],2.4941337003786237,24.056448934911412,9.182937595611905,240
+rule: most starved,full (central),fewer_trucks,900021,[ True  True  True  True],2.4757534577664475,24.23504643072588,13.123953854125514,240
+rule: most starved,full (central),fewer_trucks,900022,[ True  True  True  True],2.560165600775442,23.43598397768752,11.01880455940038,240
+rule: most starved,full (central),fewer_trucks,900023,[ True  True  True  True],2.5005887653699563,23.994349183250506,13.380066859202598,240
+rule: most starved,full (central),fewer_trucks,900024,[ True  True  True  True],2.4463245979092503,24.526589828381304,11.932279134497392,240
+rule: most starved,full (central),fewer_trucks,900025,[ True  True  True  True],2.50067233682366,23.993547301847496,11.16759286425687,240
+rule: most starved,full (central),fewer_trucks,900026,[ True  True  True  True],2.4862964607610882,24.132279053171803,11.645409594455163,240
+rule: most starved,full (central),fewer_trucks,900027,[ True  True  True  True],2.5618123879090313,23.420918831988477,10.17307071911896,240
+rule: most starved,full (central),fewer_trucks,900028,[ True  True  True  True],2.55390373340781,23.4934462153508,10.425817163172384,240
+rule: most starved,full (central),fewer_trucks,900029,[ True  True  True  True],2.4352065327568018,24.638567280811436,11.49677281157942,240
+rule: most starved,full (central),base,900000,[ True  True  True  True],2.2137200057916586,27.103698680512725,2.489861573640213,240
+rule: most starved,full (central),base,900001,[ True  True  True  True],2.2794938766708497,26.32163245273932,4.3411004242414615,240
+rule: most starved,full (central),base,900002,[ True  True  True  True],2.262374908341068,26.520803328744574,4.054207313138637,240
+rule: most starved,full (central),base,900003,[ True  True  True  True],2.1932173559099386,27.35706966677124,2.984527837312604,240
+rule: most starved,full (central),base,900004,[ True  True  True  True],2.2193609930806435,27.034808752187445,3.464416841557305,240
+rule: most starved,full (central),base,900005,[ True  True  True  True],2.2875193642166125,26.229286159746977,8.262542845096467,240
+rule: most starved,full (central),base,900006,[ True  True  True  True],2.2035763988473014,27.228463706266872,2.2347262065448144,240
+rule: most starved,full (central),base,900007,[ True  True  True  True],2.3287405823750515,25.764999525540453,4.832319556965866,240
+rule: most starved,full (central),base,900008,[ True  True  True  True],2.2303584011145112,26.901506040472228,4.6124455884496,240
+rule: most starved,full (central),base,900009,[ True  True  True  True],2.2313217945487263,26.889891071105996,2.866184917702919,240
+rule: most starved,full (central),base,900010,[ True  True  True  True],2.317087907232956,25.89457215356642,3.3488354965955383,240
+rule: most starved,full (central),base,900011,[ True  True  True  True],2.4245211141292886,24.747155077487385,4.644431340705347,240
+rule: most starved,full (central),base,900012,[ True  True  True  True],2.259642860612222,26.55286861736361,3.730333102005706,240
+rule: most starved,full (central),base,900013,[ True  True  True  True],2.186015836294041,27.447193658815472,1.7942566174528123,240
+rule: most starved,full (central),base,900014,[ True  True  True  True],2.2652819064082945,26.486769629097807,3.4289846195038027,240
+rule: most starved,full (central),base,900015,[ True  True  True  True],2.2046988104044747,27.214601702893095,3.7589103821717442,240
+rule: most starved,full (central),base,900016,[ True  True  True  True],2.3292415337631063,25.759458231480366,6.808990589678165,240
+rule: most starved,full (central),base,900017,[ True  True  True  True],2.2611075196137405,26.535668684278072,5.843547010805097,240
+rule: most starved,full (central),base,900018,[ True  True  True  True],2.275772844738512,26.364669979570852,5.1231240105234255,240
+rule: most starved,full (central),base,900019,[ True  True  True  True],2.270347124999486,26.427676780929957,2.395482025658379,240
+rule: most starved,full (central),base,900020,[ True  True  True  True],2.2522898100795667,26.63955576741715,2.7768175475822363,240
+rule: most starved,full (central),base,900021,[ True  True  True  True],2.254568381966216,26.61263259075505,1.1116540669556274,240
+rule: most starved,full (central),base,900022,[ True  True  True  True],2.3335522229986636,25.71187368710298,2.183547476478199,240
+rule: most starved,full (central),base,900023,[ True  True  True  True],2.292253704040765,26.175113118688618,2.2810355527266637,240
+rule: most starved,full (central),base,900024,[ True  True  True  True],2.3287161674224213,25.765269653455455,5.112141238733752,240
+rule: most starved,full (central),base,900025,[ True  True  True  True],2.200801007677272,27.262801039574256,3.228569729866051,240
+rule: most starved,full (central),base,900026,[ True  True  True  True],2.275202264811265,26.371281766009133,4.205002312641936,240
+rule: most starved,full (central),base,900027,[ True  True  True  True],2.249444962066596,26.67324651716625,2.8949239624363656,240
+rule: most starved,full (central),base,900028,[ True  True  True  True],2.1847631002560663,27.46293179016419,2.581930439864197,240
+rule: most starved,full (central),base,900029,[ True  True  True  True],2.312315446841166,25.94801677338854,3.5569279680240866,240
+rule: most starved,full (central),more_trucks,900000,[ True  True  True  True],2.3018111803969137,26.066429996944354,0.0,240
+rule: most starved,full (central),more_trucks,900001,[ True  True  True  True],2.264327507346385,26.497933627240748,0.19158741423316608,240
+rule: most starved,full (central),more_trucks,900002,[ True  True  True  True],2.296196423548177,26.130168736734436,1.0162763783564703,240
+rule: most starved,full (central),more_trucks,900003,[ True  True  True  True],2.124736640834536,28.23879385655707,0.039988144841969234,240
+rule: most starved,full (central),more_trucks,900004,[ True  True  True  True],2.2267255841251212,26.94539481099731,0.0,240
+rule: most starved,full (central),more_trucks,900005,[ True  True  True  True],2.118860940113163,28.317101355785788,0.2368679005824472,240
+rule: most starved,full (central),more_trucks,900006,[ True  True  True  True],2.219159176558544,27.037267373063145,0.0,240
+rule: most starved,full (central),more_trucks,900007,[ True  True  True  True],2.1740392477644215,27.598397803396782,0.38659582540996973,240
+rule: most starved,full (central),more_trucks,900008,[ True  True  True  True],2.2159040698904384,27.07698443054288,0.033890439088493235,240
+rule: most starved,full (central),more_trucks,900009,[ True  True  True  True],2.2039683212189973,27.223621783644546,0.038789824512145736,240
+rule: most starved,full (central),more_trucks,900010,[ True  True  True  True],2.188431456290493,27.416897078286002,0.13174002652495737,240
+rule: most starved,full (central),more_trucks,900011,[ True  True  True  True],2.227041672823784,26.94157039455971,0.0,240
+rule: most starved,full (central),more_trucks,900012,[ True  True  True  True],2.2016135078850256,27.25273976795266,0.09779329248913528,240
+rule: most starved,full (central),more_trucks,900013,[ True  True  True  True],2.1763461141960607,27.569144268288373,0.19079501960807915,240
+rule: most starved,full (central),more_trucks,900014,[ True  True  True  True],2.228112082708075,26.928627363788298,0.0,240
+rule: most starved,full (central),more_trucks,900015,[ True  True  True  True],2.2067632062213396,27.189142827307936,0.0,240
+rule: most starved,full (central),more_trucks,900016,[ True  True  True  True],2.136986842519065,28.076915967003533,0.024048028734320135,240
+rule: most starved,full (central),more_trucks,900017,[ True  True  True  True],2.2136311548853462,27.104786570962254,0.05566719582553667,240
+rule: most starved,full (central),more_trucks,900018,[ True  True  True  True],2.398435489552707,25.01630761442311,0.0,240
+rule: most starved,full (central),more_trucks,900019,[ True  True  True  True],2.2740512429061486,26.384629716312965,0.0,240
+rule: most starved,full (central),more_trucks,900020,[ True  True  True  True],2.1861662139803997,27.445305675434767,0.22568248327740692,240
+rule: most starved,full (central),more_trucks,900021,[ True  True  True  True],2.2208325979596784,27.016894499442756,0.028539563681255885,240
+rule: most starved,full (central),more_trucks,900022,[ True  True  True  True],2.202665469223177,27.23972425152715,0.0,240
+rule: most starved,full (central),more_trucks,900023,[ True  True  True  True],2.1677023286325805,27.67907715348025,0.033017068809486176,240
+rule: most starved,full (central),more_trucks,900024,[ True  True  True  True],2.1968482150965802,27.311855042002623,0.04156487211011425,240
+rule: most starved,full (central),more_trucks,900025,[ True  True  True  True],2.2311337071906787,26.8921579225069,0.1069570967832711,240
+rule: most starved,full (central),more_trucks,900026,[ True  True  True  True],2.210781010940587,27.139730123913413,0.3800328845782408,240
+rule: most starved,full (central),more_trucks,900027,[ True  True  True  True],2.265178238072401,26.48798182480254,0.06665537427843155,240
+rule: most starved,full (central),more_trucks,900028,[ True  True  True  True],2.18401899143385,27.47228858143255,0.05956213960072867,240
+rule: most starved,full (central),more_trucks,900029,[ True  True  True  True],2.160046623785178,27.77717820500487,0.0,240
+rule: most starved,full (central),six_cranes,900000,[ True  True  True  True  True  True],2.7306971932425386,21.972410616774983,13.841537178270674,360
+rule: most starved,full (central),six_cranes,900001,[ True  True  True  True  True  True],2.774864711428911,21.622675784111696,9.72865788401531,360
+rule: most starved,full (central),six_cranes,900002,[ True  True  True  True  True  True],2.887157758426471,20.7816839328865,14.561152135995776,360
+rule: most starved,full (central),six_cranes,900003,[ True  True  True  True  True  True],3.0558407611697556,19.634530948868026,13.138477648728953,360
+rule: most starved,full (central),six_cranes,900004,[ True  True  True  True  True  True],2.4782031533869002,24.211090167486656,9.102276730304242,360
+rule: most starved,full (central),six_cranes,900005,[ True  True  True  True  True  True],2.562471307852888,23.41489632142434,11.77245182482291,360
+rule: most starved,full (central),six_cranes,900006,[ True  True  True  True  True  True],2.6180227771752493,22.91805882022837,15.173512932453248,360
+rule: most starved,full (central),six_cranes,900007,[ True  True  True  True  True  True],2.4692476177413636,24.298899619829292,6.528234350689461,360
+rule: most starved,full (central),six_cranes,900008,[ True  True  True  True  True  True],2.5580306169526197,23.45554412146871,10.524301245212463,360
+rule: most starved,full (central),six_cranes,900009,[ True  True  True  True  True  True],2.4562234350869576,24.427745107755566,7.393746448677487,360
+rule: most starved,full (central),six_cranes,900010,[ True  True  True  True  True  True],2.7853470507154245,21.54130128401372,11.607162732958049,360
+rule: most starved,full (central),six_cranes,900011,[ True  True  True  True  True  True],2.6978217519918326,22.240164664585908,10.285050917547965,360
+rule: most starved,full (central),six_cranes,900012,[ True  True  True  True  True  True],2.4514728384427498,24.475082513299974,11.262177085861401,360
+rule: most starved,full (central),six_cranes,900013,[ True  True  True  True  True  True],2.675981611768954,22.42167873505569,10.458339146797591,360
+rule: most starved,full (central),six_cranes,900014,[ True  True  True  True  True  True],2.751911137556392,21.803029604101994,15.014896709225578,360
+rule: most starved,full (central),six_cranes,900015,[ True  True  True  True  True  True],2.8317706204620436,21.188156825431772,13.43085248821998,360
+rule: most starved,full (central),six_cranes,900016,[ True  True  True  True  True  True],2.6119093629826096,22.97170064564736,9.938265935084313,360
+rule: most starved,full (central),six_cranes,900017,[ True  True  True  True  True  True],2.9077258165745485,20.63468283632158,12.140969687721515,360
+rule: most starved,full (central),six_cranes,900018,[ True  True  True  True  True  True],2.7333182048399185,21.951341008799236,14.049597393741523,360
+rule: most starved,full (central),six_cranes,900019,[ True  True  True  True  True  True],2.4308658244686936,24.6825634702047,9.798868194323278,360
+rule: most starved,full (central),six_cranes,900020,[ True  True  True  True  True  True],2.665542606850507,22.50948825421083,12.948041206263515,360
+rule: most starved,full (central),six_cranes,900021,[ True  True  True  True  True  True],2.680265126797976,22.385845116628452,10.286852969917547,360
+rule: most starved,full (central),six_cranes,900022,[ True  True  True  True  True  True],2.788353112233834,21.518078085860576,12.687376327952164,360
+rule: most starved,full (central),six_cranes,900023,[ True  True  True  True  True  True],2.6545579431047615,22.6026333898081,15.578803228340695,360
+rule: most starved,full (central),six_cranes,900024,[ True  True  True  True  True  True],2.4620034431591353,24.370396461757426,11.434119838255743,360
+rule: most starved,full (central),six_cranes,900025,[ True  True  True  True  True  True],2.7074080863662773,22.1614171510171,15.929365941572378,360
+rule: most starved,full (central),six_cranes,900026,[ True  True  True  True  True  True],2.5313714272176684,23.702566662036002,13.010881593721392,360
+rule: most starved,full (central),six_cranes,900027,[ True  True  True  True  True  True],2.6221461420308763,22.882019822712646,12.20769353033872,360
+rule: most starved,full (central),six_cranes,900028,[ True  True  True  True  True  True],2.6423562076915177,22.707006657674942,14.567700233394731,360
+rule: most starved,full (central),six_cranes,900029,[ True  True  True  True  True  True],2.72784026543381,21.995422811334652,13.79394258702848,360
+PPO central dispatcher,full (central),fewer_trucks,900000,[ True  True  True  True],2.3118184139517983,25.95359550642069,8.717665270046588,240
+PPO central dispatcher,full (central),fewer_trucks,900001,[ True  True  True  True],2.3597758537593028,25.426143718021113,8.157516587923913,240
+PPO central dispatcher,full (central),fewer_trucks,900002,[ True  True  True  True],2.3736872364548693,25.277129639712236,6.444607382803579,240
+PPO central dispatcher,full (central),fewer_trucks,900003,[ True  True  True  True],2.3912512068483833,25.091466688302766,9.238027115695749,240
+PPO central dispatcher,full (central),fewer_trucks,900004,[ True  True  True  True],2.4085651100871113,24.911097378567426,7.488294615967537,240
+PPO central dispatcher,full (central),fewer_trucks,900005,[ True  True  True  True],2.4761406002237716,24.231257302019817,12.156577558151621,240
+PPO central dispatcher,full (central),fewer_trucks,900006,[ True  True  True  True],2.369951678414393,25.3169718802633,6.005896673379967,240
+PPO central dispatcher,full (central),fewer_trucks,900007,[ True  True  True  True],2.4050312083392917,24.94770121566566,10.251652133835531,240
+PPO central dispatcher,full (central),fewer_trucks,900008,[ True  True  True  True],2.3964922835857867,25.036592193914398,8.411739118338273,240
+PPO central dispatcher,full (central),fewer_trucks,900009,[ True  True  True  True],2.3584199247764137,25.440761999027043,7.227066466517639,240
+PPO central dispatcher,full (central),fewer_trucks,900010,[ True  True  True  True],2.296539173920614,26.126268901204494,6.214934306835911,240
+PPO central dispatcher,full (central),fewer_trucks,900011,[ True  True  True  True],2.411368105169253,24.882140504130383,10.660460364641027,240
+PPO central dispatcher,full (central),fewer_trucks,900012,[ True  True  True  True],2.3358606705548044,25.686463561950823,8.81074649693333,240
+PPO central dispatcher,full (central),fewer_trucks,900013,[ True  True  True  True],2.385497377044332,25.151987412512238,9.470358440339716,240
+PPO central dispatcher,full (central),fewer_trucks,900014,[ True  True  True  True],2.4315379647890527,24.675740567844798,8.717128550416573,240
+PPO central dispatcher,full (central),fewer_trucks,900015,[ True  True  True  True],2.3465142249089026,25.56984286013836,9.876693791057264,240
+PPO central dispatcher,full (central),fewer_trucks,900016,[ True  True  True  True],2.3313028042318003,25.736682464022905,7.738070657621896,240
+PPO central dispatcher,full (central),fewer_trucks,900017,[ True  True  True  True],2.3661064777109115,25.35811493067166,8.406667348779715,240
+PPO central dispatcher,full (central),fewer_trucks,900018,[ True  True  True  True],2.4776778668608928,24.216223102488026,11.206246364411406,240
+PPO central dispatcher,full (central),fewer_trucks,900019,[ True  True  True  True],2.3370408778107317,25.673491880127557,5.404403311136264,240
+PPO central dispatcher,full (central),fewer_trucks,900020,[ True  True  True  True],2.347023233612764,25.564297421820672,7.439673287990848,240
+PPO central dispatcher,full (central),fewer_trucks,900021,[ True  True  True  True],2.3783723406164152,25.227336769502408,8.541647186643491,240
+PPO central dispatcher,full (central),fewer_trucks,900022,[ True  True  True  True],2.3586449895859087,25.438334410187686,9.749392090626364,240
+PPO central dispatcher,full (central),fewer_trucks,900023,[ True  True  True  True],2.307464036383476,26.002572111173148,9.362049494817812,240
+PPO central dispatcher,full (central),fewer_trucks,900024,[ True  True  True  True],2.401320511637663,24.986252234642738,9.35725270454387,240
+PPO central dispatcher,full (central),fewer_trucks,900025,[ True  True  True  True],2.3849573101805124,25.15768300920184,7.749801274118009,240
+PPO central dispatcher,full (central),fewer_trucks,900026,[ True  True  True  True],2.4347320769218705,24.643368594320027,13.053527436776225,240
+PPO central dispatcher,full (central),fewer_trucks,900027,[ True  True  True  True],2.350686323330463,25.524460411626393,6.504007843952507,240
+PPO central dispatcher,full (central),fewer_trucks,900028,[ True  True  True  True],2.4232937083360366,24.75968958843178,8.054085020872318,240
+PPO central dispatcher,full (central),fewer_trucks,900029,[ True  True  True  True],2.342906162390433,25.60922027657432,7.465255193732413,240
+PPO central dispatcher,full (central),base,900000,[ True  True  True  True],2.257891176153575,26.573468479651375,2.319849701257021,240
+PPO central dispatcher,full (central),base,900001,[ True  True  True  True],2.2406696041738674,26.777709613337635,3.184890889752194,240
+PPO central dispatcher,full (central),base,900002,[ True  True  True  True],2.302625727050287,26.057209078811642,2.353729752626005,240
+PPO central dispatcher,full (central),base,900003,[ True  True  True  True],2.2668974415178194,26.467893474627825,1.2273007573805983,240
+PPO central dispatcher,full (central),base,900004,[ True  True  True  True],2.2764997458556664,26.35625156964287,0.8788425766216745,240
+PPO central dispatcher,full (central),base,900005,[ True  True  True  True],2.275320334699597,26.369913319445455,1.6633524884060902,240
+PPO central dispatcher,full (central),base,900006,[ True  True  True  True],2.2085781524518384,27.166799568940494,0.7155003318469617,240
+PPO central dispatcher,full (central),base,900007,[ True  True  True  True],2.154442326550319,27.8494342877452,1.8804644054138335,240
+PPO central dispatcher,full (central),base,900008,[ True  True  True  True],2.212144860185661,27.122997720395364,2.0331561936825673,240
+PPO central dispatcher,full (central),base,900009,[ True  True  True  True],2.2254116470283547,26.961304026659263,0.7514041106559778,240
+PPO central dispatcher,full (central),base,900010,[ True  True  True  True],2.29847092266997,26.104311091437374,2.7896925001213426,240
+PPO central dispatcher,full (central),base,900011,[ True  True  True  True],2.2787592142603486,26.33011843661381,1.6875621628598283,240
+PPO central dispatcher,full (central),base,900012,[ True  True  True  True],2.2895010341476865,26.206583489199527,1.821820234967284,240
+PPO central dispatcher,full (central),base,900013,[ True  True  True  True],2.2448345426744383,26.72802777193438,0.8127549523570162,240
+PPO central dispatcher,full (central),base,900014,[ True  True  True  True],2.273282477490902,26.393552316570887,1.2549389703989646,240
+PPO central dispatcher,full (central),base,900015,[ True  True  True  True],2.190786514243681,27.387424383846742,1.9113442563419702,240
+PPO central dispatcher,full (central),base,900016,[ True  True  True  True],2.1993358700516628,27.28096277472644,2.06604544059183,240
+PPO central dispatcher,full (central),base,900017,[ True  True  True  True],2.2179366627613444,27.052170157690455,3.445519296789792,240
+PPO central dispatcher,full (central),base,900018,[ True  True  True  True],2.2680680526287484,26.45423268074275,1.2317574754877494,240
+PPO central dispatcher,full (central),base,900019,[ True  True  True  True],2.308316782957733,25.992966148744866,1.0178753474063897,240
+PPO central dispatcher,full (central),base,900020,[ True  True  True  True],2.2217457760491923,27.005790062396194,2.8707261409437965,240
+PPO central dispatcher,full (central),base,900021,[ True  True  True  True],2.2757517498971707,26.36491436410456,2.263218938811372,240
+PPO central dispatcher,full (central),base,900022,[ True  True  True  True],2.2009788055788673,27.26059871540641,2.8073216429639163,240
+PPO central dispatcher,full (central),base,900023,[ True  True  True  True],2.125079910783772,28.234232367229335,1.4216402226213112,240
+PPO central dispatcher,full (central),base,900024,[ True  True  True  True],2.3598284711464563,25.42557678815134,4.514140012348966,240
+PPO central dispatcher,full (central),base,900025,[ True  True  True  True],2.219047996151809,27.038622014507926,1.8004748332021927,240
+PPO central dispatcher,full (central),base,900026,[ True  True  True  True],2.2327246887777052,26.872995269670582,1.7797637957653485,240
+PPO central dispatcher,full (central),base,900027,[ True  True  True  True],2.210055514266202,27.14863930462019,2.3331999900470684,240
+PPO central dispatcher,full (central),base,900028,[ True  True  True  True],2.310241694553914,25.971308604394935,0.8225915963703782,240
+PPO central dispatcher,full (central),base,900029,[ True  True  True  True],2.174476909603733,27.592843012039218,2.5579924643352854,240
+PPO central dispatcher,full (central),more_trucks,900000,[ True  True  True  True],2.3018111803969137,26.066429996944354,0.0,240
+PPO central dispatcher,full (central),more_trucks,900001,[ True  True  True  True],2.2062512741438125,27.195451716298457,0.10033390295860979,240
+PPO central dispatcher,full (central),more_trucks,900002,[ True  True  True  True],2.308514243607486,25.990742819173065,0.4664459567295608,240
+PPO central dispatcher,full (central),more_trucks,900003,[ True  True  True  True],2.1279039227484904,28.196761779780672,0.0,240
+PPO central dispatcher,full (central),more_trucks,900004,[ True  True  True  True],2.2267255841251212,26.94539481099731,0.0,240
+PPO central dispatcher,full (central),more_trucks,900005,[ True  True  True  True],2.1672115337000664,27.685345462130496,0.0,240
+PPO central dispatcher,full (central),more_trucks,900006,[ True  True  True  True],2.219159176558544,27.037267373063145,0.0,240
+PPO central dispatcher,full (central),more_trucks,900007,[ True  True  True  True],2.1891288703219502,27.40816258623273,0.0,240
+PPO central dispatcher,full (central),more_trucks,900008,[ True  True  True  True],2.1722058531610657,27.621691522783635,0.049909821704530705,240
+PPO central dispatcher,full (central),more_trucks,900009,[ True  True  True  True],2.179893614424173,27.524278984527058,0.20513930507906902,240
+PPO central dispatcher,full (central),more_trucks,900010,[ True  True  True  True],2.1173906039440338,28.336765020227652,0.0,240
+PPO central dispatcher,full (central),more_trucks,900011,[ True  True  True  True],2.227041672823784,26.94157039455971,0.0,240
+PPO central dispatcher,full (central),more_trucks,900012,[ True  True  True  True],2.1926724570758136,27.363868144728308,0.0,240
+PPO central dispatcher,full (central),more_trucks,900013,[ True  True  True  True],2.1963927196593636,27.317519067949444,0.02529457644409173,240
+PPO central dispatcher,full (central),more_trucks,900014,[ True  True  True  True],2.228112082708075,26.928627363788298,0.0,240
+PPO central dispatcher,full (central),more_trucks,900015,[ True  True  True  True],2.2067632062213396,27.189142827307936,0.0,240
+PPO central dispatcher,full (central),more_trucks,900016,[ True  True  True  True],2.2013555338686084,27.255933481384293,0.0,240
+PPO central dispatcher,full (central),more_trucks,900017,[ True  True  True  True],2.130599261322398,28.16109114895676,0.0,240
+PPO central dispatcher,full (central),more_trucks,900018,[ True  True  True  True],2.398435489552707,25.01630761442311,0.0,240
+PPO central dispatcher,full (central),more_trucks,900019,[ True  True  True  True],2.2740512429061486,26.384629716312965,0.0,240
+PPO central dispatcher,full (central),more_trucks,900020,[ True  True  True  True],2.1787393299625135,27.53886120054221,0.0,240
+PPO central dispatcher,full (central),more_trucks,900021,[ True  True  True  True],2.1884898020419166,27.416166136126602,0.0,240
+PPO central dispatcher,full (central),more_trucks,900022,[ True  True  True  True],2.202665469223177,27.23972425152715,0.0,240
+PPO central dispatcher,full (central),more_trucks,900023,[ True  True  True  True],2.2450766203773065,26.725145794764202,0.0,240
+PPO central dispatcher,full (central),more_trucks,900024,[ True  True  True  True],2.209423978219337,27.15639940160168,0.0,240
+PPO central dispatcher,full (central),more_trucks,900025,[ True  True  True  True],2.2389699246430346,26.798037499126288,0.09413507861941454,240
+PPO central dispatcher,full (central),more_trucks,900026,[ True  True  True  True],2.200485189528372,27.26671385271161,0.15273643720975574,240
+PPO central dispatcher,full (central),more_trucks,900027,[ True  True  True  True],2.1987750348755983,27.28792125084077,0.01094099554353712,240
+PPO central dispatcher,full (central),more_trucks,900028,[ True  True  True  True],2.2334691587126914,26.864037842627884,1.039194409950399,240
+PPO central dispatcher,full (central),more_trucks,900029,[ True  True  True  True],2.160046623785178,27.77717820500487,0.0,240
+PPO central dispatcher,full (central),six_cranes,900000,[ True  True  True  True  True  True],2.5225880155578553,23.785096745863733,11.618569074760572,360
+PPO central dispatcher,full (central),six_cranes,900001,[ True  True  True  True  True  True],2.5646970670722924,23.394575823526974,12.38284925193785,360
+PPO central dispatcher,full (central),six_cranes,900002,[ True  True  True  True  True  True],2.6157322584045026,22.9381274812116,13.409568545632107,360
+PPO central dispatcher,full (central),six_cranes,900003,[ True  True  True  True  True  True],2.4952775747030764,24.04542108191697,10.270132606988149,360
+PPO central dispatcher,full (central),six_cranes,900004,[ True  True  True  True  True  True],2.550310313198651,23.526548784860132,13.031560295125578,360
+PPO central dispatcher,full (central),six_cranes,900005,[ True  True  True  True  True  True],2.5353535755504435,23.665338270214864,10.980317698455574,360
+PPO central dispatcher,full (central),six_cranes,900006,[ True  True  True  True  True  True],2.5388281851797365,23.632950173724456,10.564544168007224,360
+PPO central dispatcher,full (central),six_cranes,900007,[ True  True  True  True  True  True],2.4550042936083853,24.439875790119903,11.540641972937998,360
+PPO central dispatcher,full (central),six_cranes,900008,[ True  True  True  True  True  True],2.4705481301504175,24.28610852294828,9.36678162622152,360
+PPO central dispatcher,full (central),six_cranes,900009,[ True  True  True  True  True  True],2.5340724862653192,23.67730217868675,12.79641314095277,360
+PPO central dispatcher,full (central),six_cranes,900010,[ True  True  True  True  True  True],2.5305806103268473,23.70997381199821,14.630383260417133,360
+PPO central dispatcher,full (central),six_cranes,900011,[ True  True  True  True  True  True],2.3442348142638667,25.594705630562487,6.5602740020270875,360
+PPO central dispatcher,full (central),six_cranes,900012,[ True  True  True  True  True  True],2.340230125423603,25.638504242884853,8.501288535101688,360
+PPO central dispatcher,full (central),six_cranes,900013,[ True  True  True  True  True  True],2.490121730707634,24.095207579650896,13.578159731248011,360
+PPO central dispatcher,full (central),six_cranes,900014,[ True  True  True  True  True  True],2.62342916599975,22.870829057484723,13.2167748873541,360
+PPO central dispatcher,full (central),six_cranes,900015,[ True  True  True  True  True  True],2.431210110652338,24.679068146808962,9.963719234182427,360
+PPO central dispatcher,full (central),six_cranes,900016,[ True  True  True  True  True  True],2.5171767953791226,23.836227995643487,10.16941811234006,360
+PPO central dispatcher,full (central),six_cranes,900017,[ True  True  True  True  True  True],2.3865633143909277,25.140753500316222,7.577078605809579,360
+PPO central dispatcher,full (central),six_cranes,900018,[ True  True  True  True  True  True],2.546232182937413,23.56422968889747,12.229932968244999,360
+PPO central dispatcher,full (central),six_cranes,900019,[ True  True  True  True  True  True],2.5394569587388327,23.627098617886293,13.893901116258396,360
+PPO central dispatcher,full (central),six_cranes,900020,[ True  True  True  True  True  True],2.6627534075282577,22.533066648366784,16.412979119014825,360
+PPO central dispatcher,full (central),six_cranes,900021,[ True  True  True  True  True  True],2.589533425864509,23.170197148534264,13.69209110180607,360
+PPO central dispatcher,full (central),six_cranes,900022,[ True  True  True  True  True  True],2.5662822861883305,23.380124752026912,12.896733964593178,360
+PPO central dispatcher,full (central),six_cranes,900023,[ True  True  True  True  True  True],2.4726709726713834,24.265258363581708,11.070728608541735,360
+PPO central dispatcher,full (central),six_cranes,900024,[ True  True  True  True  True  True],2.5426236909139925,23.59767204813226,11.96414752447188,360
+PPO central dispatcher,full (central),six_cranes,900025,[ True  True  True  True  True  True],2.608660680850277,23.000308334636824,16.03660059467712,360
+PPO central dispatcher,full (central),six_cranes,900026,[ True  True  True  True  True  True],2.5657844920821744,23.384660787044144,13.637261115275242,360
+PPO central dispatcher,full (central),six_cranes,900027,[ True  True  True  True  True  True],2.411042489189352,24.885500885624534,9.597575557288927,360
+PPO central dispatcher,full (central),six_cranes,900028,[ True  True  True  True  True  True],2.5185238215734196,23.823479248457403,11.319780614121777,360
+PPO central dispatcher,full (central),six_cranes,900029,[ True  True  True  True  True  True],2.48939968918274,24.10219630890119,10.942675411011313,360

@@ -1,0 +1,13 @@
+scenario,reward,best_rule,best_rule_mph,ppo_mph_mean,ppo_mph_min_seed,ppo_mph_max_seed,seeds_beating_best_rule,ppo_makespan_h,best_rule_makespan_h
+base,idle time,fewest_assigned,26.75,26.82,26.73,26.98,2,2.238,2.244
+base,idle + turnaround,fewest_assigned,26.75,26.77,26.69,26.85,2,2.242,2.244
+fewer_trucks,idle time,dedicated,24.39,25.1,24.87,25.25,3,2.391,2.46
+fewer_trucks,idle + turnaround,dedicated,24.39,25.22,25.14,25.36,3,2.38,2.46
+more_trucks,idle time,dedicated,27.18,27.16,27.14,27.18,1,2.211,2.209
+more_trucks,idle + turnaround,dedicated,27.18,27.16,27.13,27.18,1,2.211,2.209
+volatile_cranes,idle time,fewest_assigned,25.28,25.5,25.4,25.6,3,2.357,2.377
+volatile_cranes,idle + turnaround,fewest_assigned,25.28,25.49,25.35,25.68,3,2.358,2.377
+breakdown,idle time,most_starved,23.47,23.45,23.18,23.6,2,2.561,2.558
+breakdown,idle + turnaround,most_starved,23.47,23.55,23.48,23.64,3,2.55,2.558
+six_cranes,idle time,most_starved,22.58,23.72,23.38,23.91,3,2.533,2.665
+six_cranes,idle + turnaround,most_starved,22.58,23.93,23.79,24.1,3,2.51,2.665
